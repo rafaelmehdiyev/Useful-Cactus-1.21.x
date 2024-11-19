@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rafaels-useful-cactus",
+	"version": "${version}",
+	"name": "Rafael's Useful Cactus",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"RaFaEL0 (Rafael Mehdiyev)"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/rafaels-useful-cactus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"net.rafael.usefulcactus.RafaelsUsefulCactusDataGenerator"
+		],
+		"main": [
+			"net.rafael.usefulcactus.RafaelsUsefulCactus"
+		],
+		"client": [
+			"net.rafael.usefulcactus.RafaelsUsefulCactusClient"
+		]
+	},
+	"mixins": [
+		"rafaels-useful-cactus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
