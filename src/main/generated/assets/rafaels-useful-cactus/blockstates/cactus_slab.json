@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rafaels-useful-cactus:block/cactus_slab"
+    },
+    "type=double": {
+      "model": "rafaels-useful-cactus:block/cactus_planks"
+    },
+    "type=top": {
+      "model": "rafaels-useful-cactus:block/cactus_slab_top"
+    }
+  }
+}

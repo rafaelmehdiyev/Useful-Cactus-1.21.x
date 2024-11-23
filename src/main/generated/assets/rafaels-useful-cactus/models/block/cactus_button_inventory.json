@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "rafaels-useful-cactus:block/cactus_planks"
+  }
+}

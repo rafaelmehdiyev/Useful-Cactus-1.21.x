@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rafaels-useful-cactus:block/stripped_cactus_top",
+    "side": "rafaels-useful-cactus:block/stripped_cactus"
+  }
+}

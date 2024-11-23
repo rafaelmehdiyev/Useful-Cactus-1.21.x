@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "선인장 껍질",
+  "item.rafaels-useful-cactus.cactus_shield": "선인장 방패",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "선인장 검",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "선인장 곡괭이",
+  "item.rafaels-useful-cactus.cactus_axe": "선인장 도끼",
+  "item.rafaels-useful-cactus.cactus_shovel": "선인장 삽",
+  "item.rafaels-useful-cactus.cactus_hoe": "선인장 괭이",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "껍질 벗긴 선인장",
+  "block.rafaels-useful-cactus.dried_cactus": "말린 선인장",
+  "block.rafaels-useful-cactus.cactus_planks": "선인장 판자",
+  "block.rafaels-useful-cactus.cactus_stairs": "선인장 계단",
+  "block.rafaels-useful-cactus.cactus_slab": "선인장 반 블록",
+  "block.rafaels-useful-cactus.cactus_fence": "선인장 울타리",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "선인장 울타리 문",
+  "block.rafaels-useful-cactus.cactus_door": "선인장 문",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "선인장 다락문",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "선인장 압력판",
+  "block.rafaels-useful-cactus.cactus_button": "선인장 버튼",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "유용한 선인장 아이템",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "유용한 선인장 블록"
+}

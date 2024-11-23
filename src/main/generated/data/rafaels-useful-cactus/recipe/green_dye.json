@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rafaels-useful-cactus:cactus_skin"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:green_dye"
+  }
+}

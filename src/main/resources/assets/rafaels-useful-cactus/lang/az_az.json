@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "Kaktus Qabığı",
+  "item.rafaels-useful-cactus.cactus_shield": "Kaktus Qalxan",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Kaktus Qılınc",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktus Külüng",
+  "item.rafaels-useful-cactus.cactus_axe": "Kaktus Balta",
+  "item.rafaels-useful-cactus.cactus_shovel": "Kaktus Bel",
+  "item.rafaels-useful-cactus.cactus_hoe": "Kaktus Toxası",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Soyulmuş Kaktus",
+  "block.rafaels-useful-cactus.dried_cactus": "Qurudulmuş Kaktus",
+  "block.rafaels-useful-cactus.cactus_planks": "Kaktus Taxtası",
+  "block.rafaels-useful-cactus.cactus_stairs": "Kaktus Pilləkən",
+  "block.rafaels-useful-cactus.cactus_slab": "Kaktus Pilləsi",
+  "block.rafaels-useful-cactus.cactus_fence": "Kaktus Çəpər",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Kaktus Çəpər Qapısı",
+  "block.rafaels-useful-cactus.cactus_door": "Kaktus Qapı",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktus Lyuk",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktus Təzyiq Lövhəsi",
+  "block.rafaels-useful-cactus.cactus_button": "Kaktus Düymə",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Faydalı Kaktus Əşyaları",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Faydalı Kaktus Blokları"
+}

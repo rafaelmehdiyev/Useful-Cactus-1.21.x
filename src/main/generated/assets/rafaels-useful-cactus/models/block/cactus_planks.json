@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "rafaels-useful-cactus:block/cactus_planks"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "Piel de Cactus",
+  "item.rafaels-useful-cactus.cactus_shield": "Escudo de Cactus",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Espada de Cactus",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Pico de Cactus",
+  "item.rafaels-useful-cactus.cactus_axe": "Hacha de Cactus",
+  "item.rafaels-useful-cactus.cactus_shovel": "Pala de Cactus",
+  "item.rafaels-useful-cactus.cactus_hoe": "Azada de Cactus",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Cactus sin Corteza",
+  "block.rafaels-useful-cactus.dried_cactus": "Cactus Seco",
+  "block.rafaels-useful-cactus.cactus_planks": "Tablones de Cactus",
+  "block.rafaels-useful-cactus.cactus_stairs": "Escaleras de Cactus",
+  "block.rafaels-useful-cactus.cactus_slab": "Losa de Cactus",
+  "block.rafaels-useful-cactus.cactus_fence": "Valla de Cactus",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Puerta de Valla de Cactus",
+  "block.rafaels-useful-cactus.cactus_door": "Puerta de Cactus",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Trampilla de Cactus",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Placa de Presión de Cactus",
+  "block.rafaels-useful-cactus.cactus_button": "Botón de Cactus",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Objetos de Cactus Útil",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Bloques de Cactus Útil"
+}

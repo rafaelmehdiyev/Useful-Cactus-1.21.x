@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "Skórka Kaktusa",
+  "item.rafaels-useful-cactus.cactus_shield": "Kaktusowa Tarcza",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Kaktusowy Miecz",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktusowy Kilof",
+  "item.rafaels-useful-cactus.cactus_axe": "Kaktusowa Siekiera",
+  "item.rafaels-useful-cactus.cactus_shovel": "Kaktusowa Łopata",
+  "item.rafaels-useful-cactus.cactus_hoe": "Kaktusowa Motyka",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Okorowany Kaktus",
+  "block.rafaels-useful-cactus.dried_cactus": "Wysuszony Kaktus",
+  "block.rafaels-useful-cactus.cactus_planks": "Kaktusowe Deski",
+  "block.rafaels-useful-cactus.cactus_stairs": "Kaktusowe Schody",
+  "block.rafaels-useful-cactus.cactus_slab": "Kaktusowa Płyta",
+  "block.rafaels-useful-cactus.cactus_fence": "Kaktusowy Płot",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Kaktusowa Furtka",
+  "block.rafaels-useful-cactus.cactus_door": "Kaktusowe Drzwi",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktusowa Klapa",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktusowa Płyta Naciskowa",
+  "block.rafaels-useful-cactus.cactus_button": "Kaktusowy Przycisk",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Użyteczne Przedmioty z Kaktusa",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Użyteczne Bloki z Kaktusa"
+}
