@@ -3,7 +3,8 @@
 	"package": "net.rafael.usefulcactus.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"CactusBlockMixin"
+		"CactusBlockMixin",
+		"CactusSwordMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

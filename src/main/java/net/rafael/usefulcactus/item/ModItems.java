@@ -12,6 +12,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rafael.usefulcactus.RafaelsUsefulCactus;
+import net.rafael.usefulcactus.item.custom.CactusSwordItem;
 
 public class ModItems {
 
@@ -20,7 +21,7 @@ public class ModItems {
 
     // Tool Items
     public static final Item CACTUS_SWORD = registerItem("cactus_sword",
-        new SwordItem(ModToolMaterial.CACTUS_SKIN, 
+        new CactusSwordItem(ModToolMaterial.CACTUS_SKIN, 
         new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
             ModToolMaterial.CACTUS_SKIN, 3,-2.4f))));
     

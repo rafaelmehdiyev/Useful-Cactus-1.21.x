@@ -3,6 +3,11 @@
   "item.rafaels-useful-cactus.cactus_shield": "Cactus Shield",
   
   "item.rafaels-useful-cactus.cactus_sword": "Cactus Sword",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Desert Weapon",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 Damage during daytime in desert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 Damage at noon in desert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% chance to apply Desert Thorn",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Cactus Pickaxe",
   "item.rafaels-useful-cactus.cactus_axe": "Cactus Axe",
   "item.rafaels-useful-cactus.cactus_shovel": "Cactus Shovel",
@@ -19,6 +24,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "Cactus Trapdoor",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Cactus Pressure Plate",
   "block.rafaels-useful-cactus.cactus_button": "Cactus Button",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Desert Thorn",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Inflicts continuous damage from cactus thorns",
 
   "itemgroup.useful_cactus.useful_cactus_items": "Useful Cactus Items",
   "itemgroup.useful_cactus.useful_cactus_blocks": "Useful Cactus Blocks"
