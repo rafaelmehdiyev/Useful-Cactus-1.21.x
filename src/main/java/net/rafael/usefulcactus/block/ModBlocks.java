@@ -9,10 +9,11 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rafael.usefulcactus.RafaelsUsefulCactus;
+import net.rafael.usefulcactus.block.custom.StrippedCactusBlock;
 
 public class ModBlocks {
 
-    public static final Block STRIPPED_CACTUS = registerBlock("stripped_cactus",new PillarBlock(
+    public static final Block STRIPPED_CACTUS = registerBlock("stripped_cactus",new StrippedCactusBlock(
             AbstractBlock.Settings.create().strength(1f)
     ));
 

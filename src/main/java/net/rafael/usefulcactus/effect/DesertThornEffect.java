@@ -21,7 +21,7 @@ public class DesertThornEffect extends StatusEffect {
     public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
         if (!entity.getWorld().isClient()) {
             // Apply damage
-            entity.damage(entity.getDamageSources().magic(), 0.5f);
+            entity.damage(entity.getDamageSources().magic(), 2f);
             
             // Spawn cactus break particles
             ServerWorld serverWorld = (ServerWorld) entity.getWorld();

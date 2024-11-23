@@ -9,6 +9,10 @@
   "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% chance to apply Desert Thorn",
   
   "item.rafaels-useful-cactus.cactus_pickaxe": "Cactus Pickaxe",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% faster mining in desert",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eAdditional speed during daytime",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Enhanced fortune at noon",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aChance to preserve durability",
   "item.rafaels-useful-cactus.cactus_axe": "Cactus Axe",
   "item.rafaels-useful-cactus.cactus_shovel": "Cactus Shovel",
   "item.rafaels-useful-cactus.cactus_hoe": "Cactus Hoe",

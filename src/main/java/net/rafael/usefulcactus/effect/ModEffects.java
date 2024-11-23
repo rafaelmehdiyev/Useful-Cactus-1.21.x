@@ -12,7 +12,7 @@ public class ModEffects {
     public static final RegistryEntry<StatusEffect> DESERT_THORN = registerStatusEffect("desert_thorn", 
         new DesertThornEffect(
             StatusEffectCategory.HARMFUL,  // The effect is harmful
-            0x8B4513  // Brown color for cactus thorn
+            0x2F4F2F  // Brown color for cactus thorn
         ));
 
     private static RegistryEntry<StatusEffect> registerStatusEffect(String name, StatusEffect effect) {
