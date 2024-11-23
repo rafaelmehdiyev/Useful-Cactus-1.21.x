@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "仙人掌皮",
+  "item.rafaels-useful-cactus.cactus_shield": "仙人掌盾",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "仙人掌剑",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "仙人掌镐",
+  "item.rafaels-useful-cactus.cactus_axe": "仙人掌斧",
+  "item.rafaels-useful-cactus.cactus_shovel": "仙人掌锹",
+  "item.rafaels-useful-cactus.cactus_hoe": "仙人掌锄",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "去皮仙人掌",
+  "block.rafaels-useful-cactus.dried_cactus": "干燥仙人掌",
+  "block.rafaels-useful-cactus.cactus_planks": "仙人掌木板",
+  "block.rafaels-useful-cactus.cactus_stairs": "仙人掌楼梯",
+  "block.rafaels-useful-cactus.cactus_slab": "仙人掌台阶",
+  "block.rafaels-useful-cactus.cactus_fence": "仙人掌栅栏",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "仙人掌栅栏门",
+  "block.rafaels-useful-cactus.cactus_door": "仙人掌门",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "仙人掌活板门",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "仙人掌压力板",
+  "block.rafaels-useful-cactus.cactus_button": "仙人掌按钮",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "实用仙人掌物品",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "实用仙人掌方块"
+}

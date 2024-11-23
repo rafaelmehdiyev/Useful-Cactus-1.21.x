@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "Kaktushaut",
+  "item.rafaels-useful-cactus.cactus_shield": "Kaktusschild",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Kaktusschwert",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktusspitzhacke",
+  "item.rafaels-useful-cactus.cactus_axe": "Kaktusaxt",
+  "item.rafaels-useful-cactus.cactus_shovel": "Kaktusschaufel",
+  "item.rafaels-useful-cactus.cactus_hoe": "Kaktushacke",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Geschälter Kaktus",
+  "block.rafaels-useful-cactus.dried_cactus": "Getrockneter Kaktus",
+  "block.rafaels-useful-cactus.cactus_planks": "Kaktusbretter",
+  "block.rafaels-useful-cactus.cactus_stairs": "Kaktustreppe",
+  "block.rafaels-useful-cactus.cactus_slab": "Kaktusstufe",
+  "block.rafaels-useful-cactus.cactus_fence": "Kaktuszaun",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Kaktuszauntor",
+  "block.rafaels-useful-cactus.cactus_door": "Kaktustür",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktusfalltür",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktusdruckplatte",
+  "block.rafaels-useful-cactus.cactus_button": "Kaktusknopf",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Nützliche Kaktusgegenstände",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Nützliche Kaktusblöcke"
+}

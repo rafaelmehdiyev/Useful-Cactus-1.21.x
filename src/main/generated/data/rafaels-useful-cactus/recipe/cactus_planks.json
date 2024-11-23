@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "rafaels-useful-cactus:dried_cactus"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "rafaels-useful-cactus:cactus_planks"
+  }
+}

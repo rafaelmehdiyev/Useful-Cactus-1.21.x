@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "rafaels-useful-cactus:block/dried_cactus_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "rafaels-useful-cactus:block/dried_cactus"
+    },
+    "axis=z": {
+      "model": "rafaels-useful-cactus:block/dried_cactus_horizontal",
+      "x": 90
+    }
+  }
+}

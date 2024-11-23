@@ -1,3 +1,25 @@
 {
+  "item.rafaels-useful-cactus.cactus_skin": "Cactus Skin",
+  "item.rafaels-useful-cactus.cactus_shield": "Cactus Shield",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Cactus Sword",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Cactus Pickaxe",
+  "item.rafaels-useful-cactus.cactus_axe": "Cactus Axe",
+  "item.rafaels-useful-cactus.cactus_shovel": "Cactus Shovel",
+  "item.rafaels-useful-cactus.cactus_hoe": "Cactus Hoe",
 
+  "block.rafaels-useful-cactus.stripped_cactus": "Stripped Cactus",
+  "block.rafaels-useful-cactus.dried_cactus": "Dried Cactus",
+  "block.rafaels-useful-cactus.cactus_planks": "Cactus Planks",
+  "block.rafaels-useful-cactus.cactus_stairs": "Cactus Stairs",
+  "block.rafaels-useful-cactus.cactus_slab": "Cactus Slab",
+  "block.rafaels-useful-cactus.cactus_fence": "Cactus Fence",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Cactus Fence Gate",
+  "block.rafaels-useful-cactus.cactus_door": "Cactus Door",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Cactus Trapdoor",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Cactus Pressure Plate",
+  "block.rafaels-useful-cactus.cactus_button": "Cactus Button",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Useful Cactus Items",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Useful Cactus Blocks"
 }

@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "Кожура Кактуса",
+  "item.rafaels-useful-cactus.cactus_shield": "Кактусовый Щит",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "Кактусовый Меч",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Кактусовая Кирка",
+  "item.rafaels-useful-cactus.cactus_axe": "Кактусовый Топор",
+  "item.rafaels-useful-cactus.cactus_shovel": "Кактусовая Лопата",
+  "item.rafaels-useful-cactus.cactus_hoe": "Кактусовая Мотыга",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Обтёсанный Кактус",
+  "block.rafaels-useful-cactus.dried_cactus": "Сушёный Кактус",
+  "block.rafaels-useful-cactus.cactus_planks": "Кактусовые Доски",
+  "block.rafaels-useful-cactus.cactus_stairs": "Кактусовые Ступеньки",
+  "block.rafaels-useful-cactus.cactus_slab": "Кактусовая Плита",
+  "block.rafaels-useful-cactus.cactus_fence": "Кактусовый Забор",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Кактусовая Калитка",
+  "block.rafaels-useful-cactus.cactus_door": "Кактусовая Дверь",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Кактусовый Люк",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Кактусовая Нажимная Плита",
+  "block.rafaels-useful-cactus.cactus_button": "Кактусовая Кнопка",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Полезные Предметы из Кактуса",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Полезные Блоки из Кактуса"
+}

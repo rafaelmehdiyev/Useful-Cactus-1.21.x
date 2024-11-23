@@ -1,0 +1,25 @@
+{
+  "item.rafaels-useful-cactus.cactus_skin": "サボテンの皮",
+  "item.rafaels-useful-cactus.cactus_shield": "サボテンの盾",
+  
+  "item.rafaels-useful-cactus.cactus_sword": "サボテンの剣",
+  "item.rafaels-useful-cactus.cactus_pickaxe": "サボテンのツルハシ",
+  "item.rafaels-useful-cactus.cactus_axe": "サボテンの斧",
+  "item.rafaels-useful-cactus.cactus_shovel": "サボテンのシャベル",
+  "item.rafaels-useful-cactus.cactus_hoe": "サボテンのクワ",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "樹皮を剥いだサボテン",
+  "block.rafaels-useful-cactus.dried_cactus": "乾燥したサボテン",
+  "block.rafaels-useful-cactus.cactus_planks": "サボテンの木材",
+  "block.rafaels-useful-cactus.cactus_stairs": "サボテンの階段",
+  "block.rafaels-useful-cactus.cactus_slab": "サボテンのハーフブロック",
+  "block.rafaels-useful-cactus.cactus_fence": "サボテンのフェンス",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "サボテンのフェンスゲート",
+  "block.rafaels-useful-cactus.cactus_door": "サボテンのドア",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "サボテンのトラップドア",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "サボテンの感圧板",
+  "block.rafaels-useful-cactus.cactus_button": "サボテンのボタン",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "便利なサボテンのアイテム",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "便利なサボテンのブロック"
+}

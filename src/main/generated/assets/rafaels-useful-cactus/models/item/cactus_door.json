@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rafaels-useful-cactus:item/cactus_door"
+  }
+}
