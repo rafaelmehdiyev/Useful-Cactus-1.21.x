@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.ArmorItem;
 import net.rafael.usefulcactus.block.ModBlocks;
 import net.rafael.usefulcactus.item.ModItems;
 
@@ -45,5 +46,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CACTUS_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CACTUS_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CACTUS_HOE, Models.HANDHELD);
+
+        // Armor
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_CHESTPLATE);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_BOOTS);
     }
 }

@@ -23,6 +23,11 @@ public class ModItemGroups {
                         entries.add(ModItems.CACTUS_AXE);
                         entries.add(ModItems.CACTUS_SHOVEL);
                         entries.add(ModItems.CACTUS_HOE);
+
+                        entries.add(ModItems.CACTUS_HELMET);
+                        entries.add(ModItems.CACTUS_CHESTPLATE);
+                        entries.add(ModItems.CACTUS_LEGGINGS);
+                        entries.add(ModItems.CACTUS_BOOTS);
                     })
                     .build());
 

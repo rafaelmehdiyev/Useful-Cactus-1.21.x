@@ -133,5 +133,36 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
+        // Armor Recipes
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_HELMET)
+                .pattern("###")
+                .pattern("# #")
+                .input('#', ModItems.CACTUS_SKIN)
+                .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_CHESTPLATE)
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .input('#', ModItems.CACTUS_SKIN)
+                .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_LEGGINGS)
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.CACTUS_SKIN)
+                .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
+                .offerTo(recipeExporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_BOOTS)
+                .pattern("# #")
+                .pattern("# #")
+                .input('#', ModItems.CACTUS_SKIN)
+                .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
+                .offerTo(recipeExporter);
+
     }
 }

@@ -1,19 +1,14 @@
 package net.rafael.usefulcactus.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.HoeItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
-import net.minecraft.item.PickaxeItem;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.rafael.usefulcactus.RafaelsUsefulCactus;
 import net.rafael.usefulcactus.item.custom.CactusPickaxeItem;
 import net.rafael.usefulcactus.item.custom.CactusSwordItem;
+import net.rafael.usefulcactus.item.custom.ModArmorItem;
 
 public class ModItems {
 
@@ -22,25 +17,42 @@ public class ModItems {
 
     // Tool Items
     public static final Item CACTUS_SWORD = registerItem("cactus_sword",
-        new CactusSwordItem(ModToolMaterial.CACTUS_SKIN, 
-        new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-            ModToolMaterial.CACTUS_SKIN, 3,-2.4f))));
-    
+            new CactusSwordItem(ModToolMaterial.CACTUS_SKIN,
+                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
+                            ModToolMaterial.CACTUS_SKIN, 3, -2.4f))));
+
     public static final Item CACTUS_PICKAXE = registerItem("cactus_pickaxe", new CactusPickaxeItem(
-        ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-            ModToolMaterial.CACTUS_SKIN, 1,-2.0f))));
-    
+            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
+                    ModToolMaterial.CACTUS_SKIN, 1, -2.0f))));
+
     public static final Item CACTUS_AXE = registerItem("cactus_axe", new AxeItem(
-        ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(
-            ModToolMaterial.CACTUS_SKIN, 6,-3.2f))));
-    
+            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(
+                    ModToolMaterial.CACTUS_SKIN, 6, -3.2f))));
+
     public static final Item CACTUS_SHOVEL = registerItem("cactus_shovel", new ShovelItem(
-        ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(
-            ModToolMaterial.CACTUS_SKIN, 1.5f,-3.0f))));
+            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(
+                    ModToolMaterial.CACTUS_SKIN, 1.5f, -3.0f))));
 
     public static final Item CACTUS_HOE = registerItem("cactus_hoe", new HoeItem(
-        ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
-            ModToolMaterial.CACTUS_SKIN, -2,-1.0f))));
+            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
+                    ModToolMaterial.CACTUS_SKIN, -2, -1.0f))));
+
+    // Cactus Armor
+    public static final Item CACTUS_HELMET = registerItem("cactus_helmet",
+            new ModArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+
+    public static final Item CACTUS_CHESTPLATE = registerItem("cactus_chestplate",
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
+                    new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+
+    public static final Item CACTUS_LEGGINGS = registerItem("cactus_leggings",
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
+                    new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+
+    public static final Item CACTUS_BOOTS = registerItem("cactus_boots",
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
+                    new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, name), item);
@@ -53,12 +65,14 @@ public class ModItems {
             entries.add(CACTUS_SKIN);
         });
 
-        // Add tools to combat group
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(CACTUS_SWORD);
+            entries.add(CACTUS_HELMET);
+            entries.add(CACTUS_CHESTPLATE);
+            entries.add(CACTUS_LEGGINGS);
+            entries.add(CACTUS_BOOTS);
         });
 
-        // Add tools to tools group
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(entries -> {
             entries.add(CACTUS_PICKAXE);
             entries.add(CACTUS_AXE);

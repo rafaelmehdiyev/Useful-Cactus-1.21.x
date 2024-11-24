@@ -38,5 +38,12 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
         getOrCreateTagBuilder(ItemTags.HOES)
                 .add(ModItems.CACTUS_HOE);
+
+        // Add armor to appropriate vanilla tags
+        getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.CACTUS_HELMET)
+                .add(ModItems.CACTUS_CHESTPLATE)
+                .add(ModItems.CACTUS_LEGGINGS)
+                .add(ModItems.CACTUS_BOOTS);
     }
 }

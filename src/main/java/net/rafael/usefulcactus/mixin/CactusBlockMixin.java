@@ -3,9 +3,6 @@ package net.rafael.usefulcactus.mixin;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CactusBlock;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
@@ -15,26 +12,15 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
-import net.rafael.usefulcactus.RafaelsUsefulCactus;
 import net.rafael.usefulcactus.block.ModBlocks;
-import net.rafael.usefulcactus.effect.ModEffects;
 import net.rafael.usefulcactus.item.ModItems;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(AbstractBlock.class)
 public class CactusBlockMixin {
-
-    @Inject(method = "onEntityCollision", at = @At("HEAD"))
-    private void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity, CallbackInfo ci) {
-        if (!world.isClient && state.getBlock() instanceof CactusBlock) {
-            RafaelsUsefulCactus.LOGGER.info("Player " + entity.getName().getString() + " collided with cactus! Applying Desert Thorn effect...");
-            ((LivingEntity) entity).addStatusEffect(new StatusEffectInstance(ModEffects.DESERT_THORN, 100, 0));
-        }
-    }
 
     @Inject(at = @At("HEAD"), method = "onUse", cancellable = true)
     private void onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, BlockHitResult hit,
