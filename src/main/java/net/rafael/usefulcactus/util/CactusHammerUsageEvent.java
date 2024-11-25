@@ -26,7 +26,7 @@ public class CactusHammerUsageEvent implements PlayerBlockBreakEvents.Before {
         ItemStack mainHandItem = player.getMainHandStack();
         
         // Good pattern matching with instanceof
-        if (mainHandItem.getItem() instanceof CactusHammerItem hammer && 
+        if (mainHandItem.getItem() instanceof CactusHammerItem && 
                 player instanceof ServerPlayerEntity serverPlayer) {
             
             // Recursion prevention
