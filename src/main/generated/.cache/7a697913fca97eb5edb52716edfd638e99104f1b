@@ -1,4 +1,4 @@
-// 1.21	2024-11-24T12:48:16.0286917	Rafael's Useful Cactus/Recipes
+// 1.21	2024-11-25T14:19:00.8136316	Rafael's Useful Cactus/Recipes
 c95038d2f92cee85fd31cfb2372ce629e3144c09 data\rafaels-useful-cactus\recipe\cactus_fence_gate.json
 0082270da7d4726fd0cd94419ae29e89d56e5c92 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_pickaxe.json
 e79a6100184d82340fe870bb7501ad0b351b82c9 data\rafaels-useful-cactus\recipe\cactus_fence.json
@@ -29,6 +29,8 @@ f1ca7bc69ff1b0437daf752bb7574d3376c0dd1a data\rafaels-useful-cactus\recipe\cactu
 289470c4b8290dc4ba31e686f5599113312b3e66 data\rafaels-useful-cactus\recipe\cactus_chestplate.json
 511dbbf929f8ad9f22e41340d3828fbf2639d46b data\rafaels-useful-cactus\advancement\recipes\tools\cactus_shovel.json
 be472f97b255c8f3623cedc1d66ce4bc51a29f2d data\rafaels-useful-cactus\recipe\cactus_shovel.json
+217e3c02140455ff77e29c4931b2de93d66ef667 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_hammer.json
+a4e2cb23f187264bb373c6e0a9358b54fac0c67c data\rafaels-useful-cactus\recipe\cactus_hammer.json
 4ec78e60333cf7397cb338c354928d8d13f755c1 data\rafaels-useful-cactus\advancement\recipes\redstone\cactus_trapdoor.json
 c9e4da4d9f9297ee62db5f5e36494f54132eafb1 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_hoe.json
 521af39000705195769eb7d9c98440678ac1bc2f data\rafaels-useful-cactus\recipe\cactus_pressure_plate.json

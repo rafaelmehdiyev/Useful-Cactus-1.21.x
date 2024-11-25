@@ -1,4 +1,4 @@
-// 1.21	2024-11-24T12:48:16.0201625	Rafael's Useful Cactus/Model Definitions
+// 1.21	2024-11-25T14:19:00.8077084	Rafael's Useful Cactus/Model Definitions
 24d3625bb648776f42d6c51f19a5cbab1d94e495 assets\rafaels-useful-cactus\models\item\cactus_helmet_gold_trim.json
 458aafe7a8a3e14f0c50a96e8fc91ccb71f20553 assets\rafaels-useful-cactus\models\block\cactus_door_top_left.json
 98c2e8884c0e19fb5bbea06cd9d620e9eaf8f92c assets\rafaels-useful-cactus\models\block\cactus_door_top_right_open.json
@@ -48,6 +48,7 @@ dd3a60975e2631ab44d2d894af4a3d96dc882bcf assets\rafaels-useful-cactus\models\ite
 9117ea5b8fd420f987c256bae9db22595a07eb03 assets\rafaels-useful-cactus\models\block\cactus_fence_gate_open.json
 f939e79ed7426c73781bd906f293951ea7ce50f9 assets\rafaels-useful-cactus\blockstates\cactus_fence_gate.json
 409d3cdce9dea0972f09099c19b71c24d3432ea9 assets\rafaels-useful-cactus\blockstates\cactus_planks.json
+399bec571e1f5e08add91800153f91c71c7579b1 assets\rafaels-useful-cactus\models\item\cactus_hammer.json
 b9943f526e90e7d2ea4a2ceb2b85d75010c18757 assets\rafaels-useful-cactus\models\item\cactus_chestplate_quartz_trim.json
 e5e5fd5be0c2783c5c6f1ab964e32ed101a5548f assets\rafaels-useful-cactus\models\item\cactus_leggings_netherite_trim.json
 9f982a986bd9ee32382ef5028006a4eed3814c0a assets\rafaels-useful-cactus\models\item\cactus_helmet_quartz_trim.json
@@ -94,8 +95,8 @@ cfb33a7a83f031cfdae21a0fafa7592e411d46e3 assets\rafaels-useful-cactus\blockstate
 8952bb67195c75fe5f853efe0a4c28c18ae28f0a assets\rafaels-useful-cactus\models\item\cactus_chestplate_gold_trim.json
 a48863730c41a9816bad7671ded5647fc2c34fad assets\rafaels-useful-cactus\models\item\cactus_chestplate_diamond_trim.json
 1208f61b29253aa97d895d3c406e897c1de8f028 assets\rafaels-useful-cactus\models\item\cactus_helmet_emerald_trim.json
-96257fc8a78808b66e8c7dfb3760cd1a7b1a69ee assets\rafaels-useful-cactus\models\block\cactus_fence_side.json
 90af80bba6cbe79ea6c3e01c759d823fd1f8b50f assets\rafaels-useful-cactus\models\item\cactus_helmet_iron_trim.json
+96257fc8a78808b66e8c7dfb3760cd1a7b1a69ee assets\rafaels-useful-cactus\models\block\cactus_fence_side.json
 45d2a1bc5f03032c4c19de4cbdb5b77a6c2ff6f7 assets\rafaels-useful-cactus\models\item\cactus_chestplate_redstone_trim.json
 57d9d0b287685e46a028490f3b49d76c53991bdf assets\rafaels-useful-cactus\models\item\cactus_leggings_iron_trim.json
 bd1435d35dec60df41775b19eb40f68f2967de0e assets\rafaels-useful-cactus\models\block\cactus_door_bottom_right_open.json

@@ -13,9 +13,18 @@
   "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eAdditional speed during daytime",
   "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Enhanced fortune at noon",
   "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aChance to preserve durability",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Cactus Hammer",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aBreaks blocks in a 3x3 area",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Cactus Axe",
   "item.rafaels-useful-cactus.cactus_shovel": "Cactus Shovel",
   "item.rafaels-useful-cactus.cactus_hoe": "Cactus Hoe",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Cactus Helmet",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Cactus Chestplate",
+  "item.rafaels-useful-cactus.cactus_leggings": "Cactus Leggings",
+  "item.rafaels-useful-cactus.cactus_boots": "Cactus Boots",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Stripped Cactus",
   "block.rafaels-useful-cactus.dried_cactus": "Dried Cactus",

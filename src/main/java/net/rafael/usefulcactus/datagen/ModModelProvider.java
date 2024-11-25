@@ -46,6 +46,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CACTUS_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CACTUS_SHOVEL, Models.HANDHELD);
         itemModelGenerator.register(ModItems.CACTUS_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CACTUS_HAMMER, Models.HANDHELD);
 
         // Armor
         itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_HELMET);

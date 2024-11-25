@@ -133,6 +133,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_HAMMER)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern(" S ")
+                .input('C', ModItems.CACTUS_SKIN)
+                .input('S', Items.STICK)
+                .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
+                .offerTo(recipeExporter);
+        
+
         // Armor Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_HELMET)
                 .pattern("###")
