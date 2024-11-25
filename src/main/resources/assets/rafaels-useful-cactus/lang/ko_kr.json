@@ -1,12 +1,29 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "선인장 껍질",
-  "item.rafaels-useful-cactus.cactus_shield": "선인장 방패",
   
   "item.rafaels-useful-cactus.cactus_sword": "선인장 검",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6사막의 무기",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e사막에서 낮에 +1 데미지",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6사막에서 정오에 +2 데미지",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% 확률로 사막의 가시 효과",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "선인장 곡괭이",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6사막에서 25% 빠른 채굴",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§e낮에 추가 속도",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6정오에 행운 증가",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§a내구도 보존 확률",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "선인장 망치",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§a3x3 영역의 블록을 파괴",
+  
   "item.rafaels-useful-cactus.cactus_axe": "선인장 도끼",
   "item.rafaels-useful-cactus.cactus_shovel": "선인장 삽",
   "item.rafaels-useful-cactus.cactus_hoe": "선인장 괭이",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "선인장 투구",
+  "item.rafaels-useful-cactus.cactus_chestplate": "선인장 흉갑",
+  "item.rafaels-useful-cactus.cactus_leggings": "선인장 레깅스",
+  "item.rafaels-useful-cactus.cactus_boots": "선인장 부츠",
 
   "block.rafaels-useful-cactus.stripped_cactus": "껍질 벗긴 선인장",
   "block.rafaels-useful-cactus.dried_cactus": "말린 선인장",
@@ -19,6 +36,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "선인장 다락문",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "선인장 압력판",
   "block.rafaels-useful-cactus.cactus_button": "선인장 버튼",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "사막의 가시",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "선인장 가시로 지속적인 데미지를 입힘",
 
   "itemgroup.useful_cactus.useful_cactus_items": "유용한 선인장 아이템",
   "itemgroup.useful_cactus.useful_cactus_blocks": "유용한 선인장 블록"

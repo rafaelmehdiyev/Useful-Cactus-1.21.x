@@ -1,25 +1,45 @@
 {
-  "item.rafaels-useful-cactus.cactus_skin": "Skórka Kaktusa",
-  "item.rafaels-useful-cactus.cactus_shield": "Kaktusowa Tarcza",
+  "item.rafaels-useful-cactus.cactus_skin": "Skóra Kaktusa",
   
-  "item.rafaels-useful-cactus.cactus_sword": "Kaktusowy Miecz",
-  "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktusowy Kilof",
-  "item.rafaels-useful-cactus.cactus_axe": "Kaktusowa Siekiera",
-  "item.rafaels-useful-cactus.cactus_shovel": "Kaktusowa Łopata",
-  "item.rafaels-useful-cactus.cactus_hoe": "Kaktusowa Motyka",
+  "item.rafaels-useful-cactus.cactus_sword": "Miecz z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Broń Pustynna",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 obrażeń w dzień na pustyni",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 obrażeń w południe na pustyni",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% szans na nałożenie Pustynnego Ciernia",
+  
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Kilof z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% szybsze kopanie na pustyni",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eDodatkowa szybkość w dzień",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Ulepszona fortuna w południe",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aSzansa na zachowanie wytrzymałości",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Młot z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aNiszczy bloki w obszarze 3x3",
+  
+  "item.rafaels-useful-cactus.cactus_axe": "Siekiera z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_shovel": "Łopata z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_hoe": "Motyka z Kaktusa",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Hełm z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Napierśnik z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_leggings": "Nogawice z Kaktusa",
+  "item.rafaels-useful-cactus.cactus_boots": "Buty z Kaktusa",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Okorowany Kaktus",
   "block.rafaels-useful-cactus.dried_cactus": "Wysuszony Kaktus",
-  "block.rafaels-useful-cactus.cactus_planks": "Kaktusowe Deski",
-  "block.rafaels-useful-cactus.cactus_stairs": "Kaktusowe Schody",
-  "block.rafaels-useful-cactus.cactus_slab": "Kaktusowa Płyta",
-  "block.rafaels-useful-cactus.cactus_fence": "Kaktusowy Płot",
-  "block.rafaels-useful-cactus.cactus_fence_gate": "Kaktusowa Furtka",
-  "block.rafaels-useful-cactus.cactus_door": "Kaktusowe Drzwi",
-  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktusowa Klapa",
-  "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktusowa Płyta Naciskowa",
-  "block.rafaels-useful-cactus.cactus_button": "Kaktusowy Przycisk",
+  "block.rafaels-useful-cactus.cactus_planks": "Deski z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_stairs": "Schody z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_slab": "Płyta z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_fence": "Płot z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Furtka z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_door": "Drzwi z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Klapa z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Płyta Naciskowa z Kaktusa",
+  "block.rafaels-useful-cactus.cactus_button": "Przycisk z Kaktusa",
 
-  "itemgroup.useful_cactus.useful_cactus_items": "Użyteczne Przedmioty z Kaktusa",
-  "itemgroup.useful_cactus.useful_cactus_blocks": "Użyteczne Bloki z Kaktusa"
+  "effect.rafaels-useful-cactus.desert_thorn": "Pustynny Cierń",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Zadaje ciągłe obrażenia od kolców kaktusa",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Przydatne Przedmioty z Kaktusa",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Przydatne Bloki z Kaktusa"
 }

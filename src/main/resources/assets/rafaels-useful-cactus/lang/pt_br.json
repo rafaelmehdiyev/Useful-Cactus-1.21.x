@@ -1,11 +1,29 @@
 {
-  "item.rafaels-useful-cactus.cactus_skin": "Pele de Cacto",
+  "item.rafaels-useful-cactus.cactus_skin": "Casca de Cacto",
   
   "item.rafaels-useful-cactus.cactus_sword": "Espada de Cacto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Arma do Deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 de dano durante o dia no deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 de dano ao meio-dia no deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% de chance de aplicar Espinho do Deserto",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Picareta de Cacto",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% mais rápido para minerar no deserto",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eVelocidade extra durante o dia",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Sorte aumentada ao meio-dia",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aChance de preservar durabilidade",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Martelo de Cacto",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aQuebra blocos em uma área 3x3",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Machado de Cacto",
   "item.rafaels-useful-cactus.cactus_shovel": "Pá de Cacto",
   "item.rafaels-useful-cactus.cactus_hoe": "Enxada de Cacto",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Capacete de Cacto",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Peitoral de Cacto",
+  "item.rafaels-useful-cactus.cactus_leggings": "Calças de Cacto",
+  "item.rafaels-useful-cactus.cactus_boots": "Botas de Cacto",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Cacto Descascado",
   "block.rafaels-useful-cactus.dried_cactus": "Cacto Seco",
@@ -19,6 +37,9 @@
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Placa de Pressão de Cacto",
   "block.rafaels-useful-cactus.cactus_button": "Botão de Cacto",
 
-  "itemgroup.useful_cactus.useful_cactus_items": "Itens de Cacto Útil",
-  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocos de Cacto Útil"
+  "effect.rafaels-useful-cactus.desert_thorn": "Espinho do Deserto",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Causa dano contínuo dos espinhos de cacto",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Itens Úteis de Cacto",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocos Úteis de Cacto"
 }

@@ -1,24 +1,44 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Kaktüs Kabuğu",
-  "item.rafaels-useful-cactus.cactus_shield": "Kaktüs Kalkan",
   
-  "item.rafaels-useful-cactus.cactus_sword": "Kaktüs Kılıç",
+  "item.rafaels-useful-cactus.cactus_sword": "Kaktüs Kılıcı",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Çöl Silahı",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§eÇölde gündüz +1 hasar",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6Çölde öğlen +2 hasar",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§2%20 Çöl Dikeni etkisi uygulama şansı",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktüs Kazma",
-  "item.rafaels-useful-cactus.cactus_axe": "Kaktüs Balta",
-  "item.rafaels-useful-cactus.cactus_shovel": "Kaktüs Kürek",
-  "item.rafaels-useful-cactus.cactus_hoe": "Kaktüs Çapa",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6Çölde %25 daha hızlı kazma",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eGündüz ekstra hız",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Öğlen şans artışı",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aDayanıklılık koruma şansı",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Kaktüs Çekici",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§a3x3 alanda blokları kırar",
+  
+  "item.rafaels-useful-cactus.cactus_axe": "Kaktüs Baltası",
+  "item.rafaels-useful-cactus.cactus_shovel": "Kaktüs Küreği",
+  "item.rafaels-useful-cactus.cactus_hoe": "Kaktüs Çapası",
 
-  "block.rafaels-useful-cactus.stripped_cactus": "Kabuğu Soyulmuş Kaktüs",
+  "item.rafaels-useful-cactus.cactus_helmet": "Kaktüs Kaskı",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Kaktüs Göğüslüğü",
+  "item.rafaels-useful-cactus.cactus_leggings": "Kaktüs Pantolonu",
+  "item.rafaels-useful-cactus.cactus_boots": "Kaktüs Botları",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Soyulmuş Kaktüs",
   "block.rafaels-useful-cactus.dried_cactus": "Kurutulmuş Kaktüs",
   "block.rafaels-useful-cactus.cactus_planks": "Kaktüs Tahtası",
-  "block.rafaels-useful-cactus.cactus_stairs": "Kaktüs Merdiven",
+  "block.rafaels-useful-cactus.cactus_stairs": "Kaktüs Merdiveni",
   "block.rafaels-useful-cactus.cactus_slab": "Kaktüs Basamağı",
-  "block.rafaels-useful-cactus.cactus_fence": "Kaktüs Çit",
+  "block.rafaels-useful-cactus.cactus_fence": "Kaktüs Çiti",
   "block.rafaels-useful-cactus.cactus_fence_gate": "Kaktüs Çit Kapısı",
-  "block.rafaels-useful-cactus.cactus_door": "Kaktüs Kapı",
-  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktüs Kapak",
+  "block.rafaels-useful-cactus.cactus_door": "Kaktüs Kapısı",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktüs Kapağı",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktüs Basınç Plakası",
-  "block.rafaels-useful-cactus.cactus_button": "Kaktüs Düğme",
+  "block.rafaels-useful-cactus.cactus_button": "Kaktüs Düğmesi",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Çöl Dikeni",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Kaktüs dikenlerinden sürekli hasar alır",
 
   "itemgroup.useful_cactus.useful_cactus_items": "Faydalı Kaktüs Eşyaları",
   "itemgroup.useful_cactus.useful_cactus_blocks": "Faydalı Kaktüs Blokları"

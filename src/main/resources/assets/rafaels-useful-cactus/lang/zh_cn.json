@@ -1,12 +1,29 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "仙人掌皮",
-  "item.rafaels-useful-cactus.cactus_shield": "仙人掌盾",
   
   "item.rafaels-useful-cactus.cactus_sword": "仙人掌剑",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6沙漠武器",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e白天在沙漠中+1伤害",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6正午在沙漠中+2伤害",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220%几率施加沙漠荆棘效果",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "仙人掌镐",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6在沙漠中挖掘速度提升25%",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§e白天额外速度加成",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6正午时幸运提升",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§a有几率不消耗耐久",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "仙人掌锤",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§a一次破坏3x3范围的方块",
+  
   "item.rafaels-useful-cactus.cactus_axe": "仙人掌斧",
   "item.rafaels-useful-cactus.cactus_shovel": "仙人掌锹",
   "item.rafaels-useful-cactus.cactus_hoe": "仙人掌锄",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "仙人掌头盔",
+  "item.rafaels-useful-cactus.cactus_chestplate": "仙人掌胸甲",
+  "item.rafaels-useful-cactus.cactus_leggings": "仙人掌护腿",
+  "item.rafaels-useful-cactus.cactus_boots": "仙人掌靴子",
 
   "block.rafaels-useful-cactus.stripped_cactus": "去皮仙人掌",
   "block.rafaels-useful-cactus.dried_cactus": "干燥仙人掌",
@@ -19,6 +36,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "仙人掌活板门",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "仙人掌压力板",
   "block.rafaels-useful-cactus.cactus_button": "仙人掌按钮",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "沙漠荆棘",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "持续受到仙人掌刺伤害",
 
   "itemgroup.useful_cactus.useful_cactus_items": "实用仙人掌物品",
   "itemgroup.useful_cactus.useful_cactus_blocks": "实用仙人掌方块"

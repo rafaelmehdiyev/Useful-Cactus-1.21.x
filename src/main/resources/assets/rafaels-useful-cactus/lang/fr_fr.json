@@ -1,12 +1,29 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Peau de Cactus",
-  "item.rafaels-useful-cactus.cactus_shield": "Bouclier en Cactus",
   
   "item.rafaels-useful-cactus.cactus_sword": "Épée en Cactus",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Arme du Désert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 de dégâts pendant la journée dans le désert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 de dégâts à midi dans le désert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% de chance d'appliquer Épine du Désert",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Pioche en Cactus",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% plus rapide pour miner dans le désert",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eVitesse supplémentaire pendant la journée",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Fortune améliorée à midi",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aChance de préserver la durabilité",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Marteau en Cactus",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aCasse les blocs dans une zone de 3x3",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Hache en Cactus",
   "item.rafaels-useful-cactus.cactus_shovel": "Pelle en Cactus",
   "item.rafaels-useful-cactus.cactus_hoe": "Houe en Cactus",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Casque en Cactus",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Plastron en Cactus",
+  "item.rafaels-useful-cactus.cactus_leggings": "Jambières en Cactus",
+  "item.rafaels-useful-cactus.cactus_boots": "Bottes en Cactus",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Cactus Écorcé",
   "block.rafaels-useful-cactus.dried_cactus": "Cactus Séché",
@@ -20,6 +37,9 @@
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Plaque de Pression en Cactus",
   "block.rafaels-useful-cactus.cactus_button": "Bouton en Cactus",
 
+  "effect.rafaels-useful-cactus.desert_thorn": "Épine du Désert",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Inflige des dégâts continus par les épines de cactus",
+
   "itemgroup.useful_cactus.useful_cactus_items": "Objets en Cactus Utile",
-  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocs en Cactus Utile"
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocs de Cactus Utile"
 }

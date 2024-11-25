@@ -1,14 +1,31 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Piel de Cactus",
-  "item.rafaels-useful-cactus.cactus_shield": "Escudo de Cactus",
   
   "item.rafaels-useful-cactus.cactus_sword": "Espada de Cactus",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Arma del Desierto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 de daño durante el día en el desierto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 de daño al mediodía en el desierto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% de probabilidad de aplicar Espina del Desierto",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Pico de Cactus",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% más rápido minando en el desierto",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eVelocidad adicional durante el día",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Fortuna mejorada al mediodía",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aProbabilidad de preservar durabilidad",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Martillo de Cactus",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aRompe bloques en un área de 3x3",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Hacha de Cactus",
   "item.rafaels-useful-cactus.cactus_shovel": "Pala de Cactus",
   "item.rafaels-useful-cactus.cactus_hoe": "Azada de Cactus",
 
-  "block.rafaels-useful-cactus.stripped_cactus": "Cactus sin Corteza",
+  "item.rafaels-useful-cactus.cactus_helmet": "Casco de Cactus",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Peto de Cactus",
+  "item.rafaels-useful-cactus.cactus_leggings": "Pantalones de Cactus",
+  "item.rafaels-useful-cactus.cactus_boots": "Botas de Cactus",
+
+  "block.rafaels-useful-cactus.stripped_cactus": "Cactus Pelado",
   "block.rafaels-useful-cactus.dried_cactus": "Cactus Seco",
   "block.rafaels-useful-cactus.cactus_planks": "Tablones de Cactus",
   "block.rafaels-useful-cactus.cactus_stairs": "Escaleras de Cactus",
@@ -19,6 +36,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "Trampilla de Cactus",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Placa de Presión de Cactus",
   "block.rafaels-useful-cactus.cactus_button": "Botón de Cactus",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Espina del Desierto",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Inflige daño continuo por espinas de cactus",
 
   "itemgroup.useful_cactus.useful_cactus_items": "Objetos de Cactus Útil",
   "itemgroup.useful_cactus.useful_cactus_blocks": "Bloques de Cactus Útil"

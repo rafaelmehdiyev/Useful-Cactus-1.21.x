@@ -1,12 +1,29 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Pelle di Cactus",
-  "item.rafaels-useful-cactus.cactus_shield": "Scudo di Cactus",
   
   "item.rafaels-useful-cactus.cactus_sword": "Spada di Cactus",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Arma del Deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 danno durante il giorno nel deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 danno a mezzogiorno nel deserto",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% probabilità di applicare Spina del Deserto",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Piccone di Cactus",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% più veloce nel deserto",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eVelocità aggiuntiva durante il giorno",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Fortuna migliorata a mezzogiorno",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aProbabilità di preservare la durabilità",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Martello di Cactus",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aRompe i blocchi in un'area 3x3",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Ascia di Cactus",
   "item.rafaels-useful-cactus.cactus_shovel": "Pala di Cactus",
   "item.rafaels-useful-cactus.cactus_hoe": "Zappa di Cactus",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Elmo di Cactus",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Corazza di Cactus",
+  "item.rafaels-useful-cactus.cactus_leggings": "Gambali di Cactus",
+  "item.rafaels-useful-cactus.cactus_boots": "Stivali di Cactus",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Cactus Scortecciato",
   "block.rafaels-useful-cactus.dried_cactus": "Cactus Essiccato",
@@ -20,6 +37,9 @@
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Piastra di Pressione di Cactus",
   "block.rafaels-useful-cactus.cactus_button": "Pulsante di Cactus",
 
-  "itemgroup.useful_cactus.useful_cactus_items": "Oggetti Utili di Cactus",
-  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocchi Utili di Cactus"
+  "effect.rafaels-useful-cactus.desert_thorn": "Spina del Deserto",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Infligge danno continuo dalle spine di cactus",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Oggetti di Cactus Utile",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Blocchi di Cactus Utile"
 }

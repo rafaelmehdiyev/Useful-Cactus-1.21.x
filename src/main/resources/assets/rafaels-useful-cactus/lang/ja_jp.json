@@ -1,24 +1,44 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "サボテンの皮",
-  "item.rafaels-useful-cactus.cactus_shield": "サボテンの盾",
   
   "item.rafaels-useful-cactus.cactus_sword": "サボテンの剣",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6砂漠の武器",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e砂漠の昼間に+1ダメージ",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6砂漠の正午に+2ダメージ",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220%の確率で砂漠の棘を付与",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "サボテンのツルハシ",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6砂漠で25%速く採掘",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§e昼間に追加の速度",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6正午に幸運が向上",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§a耐久力が保持される確率",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "サボテンのハンマー",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§a3x3の範囲でブロックを破壊",
+  
   "item.rafaels-useful-cactus.cactus_axe": "サボテンの斧",
   "item.rafaels-useful-cactus.cactus_shovel": "サボテンのシャベル",
   "item.rafaels-useful-cactus.cactus_hoe": "サボテンのクワ",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "サボテンのヘルメット",
+  "item.rafaels-useful-cactus.cactus_chestplate": "サボテンのチェストプレート",
+  "item.rafaels-useful-cactus.cactus_leggings": "サボテンのレギンス",
+  "item.rafaels-useful-cactus.cactus_boots": "サボテンのブーツ",
 
   "block.rafaels-useful-cactus.stripped_cactus": "樹皮を剥いだサボテン",
   "block.rafaels-useful-cactus.dried_cactus": "乾燥したサボテン",
   "block.rafaels-useful-cactus.cactus_planks": "サボテンの木材",
   "block.rafaels-useful-cactus.cactus_stairs": "サボテンの階段",
-  "block.rafaels-useful-cactus.cactus_slab": "サボテンのハーフブロック",
+  "block.rafaels-useful-cactus.cactus_slab": "サボテンのスラブ",
   "block.rafaels-useful-cactus.cactus_fence": "サボテンのフェンス",
   "block.rafaels-useful-cactus.cactus_fence_gate": "サボテンのフェンスゲート",
   "block.rafaels-useful-cactus.cactus_door": "サボテンのドア",
   "block.rafaels-useful-cactus.cactus_trapdoor": "サボテンのトラップドア",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "サボテンの感圧板",
   "block.rafaels-useful-cactus.cactus_button": "サボテンのボタン",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "砂漠の棘",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "サボテンの棘による継続的なダメージを与える",
 
   "itemgroup.useful_cactus.useful_cactus_items": "便利なサボテンのアイテム",
   "itemgroup.useful_cactus.useful_cactus_blocks": "便利なサボテンのブロック"

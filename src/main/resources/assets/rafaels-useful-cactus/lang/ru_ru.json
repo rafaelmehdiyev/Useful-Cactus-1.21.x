@@ -1,25 +1,45 @@
 {
-  "item.rafaels-useful-cactus.cactus_skin": "Кожура Кактуса",
-  "item.rafaels-useful-cactus.cactus_shield": "Кактусовый Щит",
+  "item.rafaels-useful-cactus.cactus_skin": "Кожура кактуса",
   
-  "item.rafaels-useful-cactus.cactus_sword": "Кактусовый Меч",
-  "item.rafaels-useful-cactus.cactus_pickaxe": "Кактусовая Кирка",
-  "item.rafaels-useful-cactus.cactus_axe": "Кактусовый Топор",
-  "item.rafaels-useful-cactus.cactus_shovel": "Кактусовая Лопата",
-  "item.rafaels-useful-cactus.cactus_hoe": "Кактусовая Мотыга",
+  "item.rafaels-useful-cactus.cactus_sword": "Меч из кактуса",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Оружие пустыни",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 урона днём в пустыне",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 урона в полдень в пустыне",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% шанс наложить эффект Шипы пустыни",
+  
+  "item.rafaels-useful-cactus.cactus_pickaxe": "Кирка из кактуса",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6На 25% быстрее копает в пустыне",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eДополнительная скорость днём",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Улучшенная удача в полдень",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aШанс сохранить прочность",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Молот из кактуса",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aРазрушает блоки в области 3x3",
+  
+  "item.rafaels-useful-cactus.cactus_axe": "Топор из кактуса",
+  "item.rafaels-useful-cactus.cactus_shovel": "Лопата из кактуса",
+  "item.rafaels-useful-cactus.cactus_hoe": "Мотыга из кактуса",
 
-  "block.rafaels-useful-cactus.stripped_cactus": "Обтёсанный Кактус",
-  "block.rafaels-useful-cactus.dried_cactus": "Сушёный Кактус",
-  "block.rafaels-useful-cactus.cactus_planks": "Кактусовые Доски",
-  "block.rafaels-useful-cactus.cactus_stairs": "Кактусовые Ступеньки",
-  "block.rafaels-useful-cactus.cactus_slab": "Кактусовая Плита",
-  "block.rafaels-useful-cactus.cactus_fence": "Кактусовый Забор",
-  "block.rafaels-useful-cactus.cactus_fence_gate": "Кактусовая Калитка",
-  "block.rafaels-useful-cactus.cactus_door": "Кактусовая Дверь",
-  "block.rafaels-useful-cactus.cactus_trapdoor": "Кактусовый Люк",
-  "block.rafaels-useful-cactus.cactus_pressure_plate": "Кактусовая Нажимная Плита",
-  "block.rafaels-useful-cactus.cactus_button": "Кактусовая Кнопка",
+  "item.rafaels-useful-cactus.cactus_helmet": "Шлем из кактуса",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Нагрудник из кактуса",
+  "item.rafaels-useful-cactus.cactus_leggings": "Поножи из кактуса",
+  "item.rafaels-useful-cactus.cactus_boots": "Ботинки из кактуса",
 
-  "itemgroup.useful_cactus.useful_cactus_items": "Полезные Предметы из Кактуса",
-  "itemgroup.useful_cactus.useful_cactus_blocks": "Полезные Блоки из Кактуса"
+  "block.rafaels-useful-cactus.stripped_cactus": "Очищенный кактус",
+  "block.rafaels-useful-cactus.dried_cactus": "Высушенный кактус",
+  "block.rafaels-useful-cactus.cactus_planks": "Доски из кактуса",
+  "block.rafaels-useful-cactus.cactus_stairs": "Ступеньки из кактуса",
+  "block.rafaels-useful-cactus.cactus_slab": "Плита из кактуса",
+  "block.rafaels-useful-cactus.cactus_fence": "Забор из кактуса",
+  "block.rafaels-useful-cactus.cactus_fence_gate": "Калитка из кактуса",
+  "block.rafaels-useful-cactus.cactus_door": "Дверь из кактуса",
+  "block.rafaels-useful-cactus.cactus_trapdoor": "Люк из кактуса",
+  "block.rafaels-useful-cactus.cactus_pressure_plate": "Нажимная плита из кактуса",
+  "block.rafaels-useful-cactus.cactus_button": "Кнопка из кактуса",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Шипы пустыни",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Наносит постоянный урон от шипов кактуса",
+
+  "itemgroup.useful_cactus.useful_cactus_items": "Полезные предметы из кактуса",
+  "itemgroup.useful_cactus.useful_cactus_blocks": "Полезные блоки из кактуса"
 }

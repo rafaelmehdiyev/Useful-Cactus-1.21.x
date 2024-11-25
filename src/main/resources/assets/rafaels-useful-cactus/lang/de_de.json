@@ -1,12 +1,29 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Kaktushaut",
-  "item.rafaels-useful-cactus.cactus_shield": "Kaktusschild",
   
   "item.rafaels-useful-cactus.cactus_sword": "Kaktusschwert",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Wüstenwaffe",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§e+1 Schaden tagsüber in der Wüste",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6+2 Schaden mittags in der Wüste",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% Chance auf Wüstendorn",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktusspitzhacke",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§625% schnelleres Abbauen in der Wüste",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eZusätzliche Geschwindigkeit tagsüber",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Verbessertes Glück mittags",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aChance auf Haltbarkeitserhaltung",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Kaktushammer",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§aBricht Blöcke in einem 3x3 Bereich",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Kaktusaxt",
   "item.rafaels-useful-cactus.cactus_shovel": "Kaktusschaufel",
   "item.rafaels-useful-cactus.cactus_hoe": "Kaktushacke",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Kaktushelm",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Kaktusbrustplatte",
+  "item.rafaels-useful-cactus.cactus_leggings": "Kaktusbeinschutz",
+  "item.rafaels-useful-cactus.cactus_boots": "Kaktusstiefel",
 
   "block.rafaels-useful-cactus.stripped_cactus": "Geschälter Kaktus",
   "block.rafaels-useful-cactus.dried_cactus": "Getrockneter Kaktus",
@@ -19,6 +36,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktusfalltür",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktusdruckplatte",
   "block.rafaels-useful-cactus.cactus_button": "Kaktusknopf",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Wüstendorn",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Fügt kontinuierlichen Schaden durch Kaktusdornen zu",
 
   "itemgroup.useful_cactus.useful_cactus_items": "Nützliche Kaktusgegenstände",
   "itemgroup.useful_cactus.useful_cactus_blocks": "Nützliche Kaktusblöcke"

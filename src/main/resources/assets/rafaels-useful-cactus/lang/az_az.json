@@ -1,12 +1,30 @@
 {
   "item.rafaels-useful-cactus.cactus_skin": "Kaktus Qabığı",
-  "item.rafaels-useful-cactus.cactus_shield": "Kaktus Qalxan",
   
   "item.rafaels-useful-cactus.cactus_sword": "Kaktus Qılınc",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.desert": "§6Səhra Silahı",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.daytime": "§eSəhrada gündüz +1 zərər",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.noon": "§6Günorta səhrada +2 zərər",
+  "item.rafaels-useful-cactus.cactus_sword.tooltip.thorn": "§220% Səhra Tikanı effekti",
+  
   "item.rafaels-useful-cactus.cactus_pickaxe": "Kaktus Külüng",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.desert": "§6Səhrada 25% sürətli qazma",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.daytime": "§eGündüz əlavə sürət",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.noon": "§6Günorta əlavə uğur",
+  "item.rafaels-useful-cactus.cactus_pickaxe.tooltip.durability": "§aDavamlılığı qoruma şansı",
+  
+  "item.rafaels-useful-cactus.cactus_hammer": "Kaktus Çəkic",
+  "item.rafaels-useful-cactus.cactus_hammer.tooltip.area": "§a3x3 sahədə blokları sındırır",
+  
   "item.rafaels-useful-cactus.cactus_axe": "Kaktus Balta",
   "item.rafaels-useful-cactus.cactus_shovel": "Kaktus Bel",
   "item.rafaels-useful-cactus.cactus_hoe": "Kaktus Toxası",
+
+  "item.rafaels-useful-cactus.cactus_helmet": "Kaktus Dəbilqə",
+  "item.rafaels-useful-cactus.cactus_chestplate": "Kaktus Zireh",
+  "item.rafaels-useful-cactus.cactus_leggings": "Kaktus Şalvar",
+  "item.rafaels-useful-cactus.cactus_boots": "Kaktus Çəkmə",
+
 
   "block.rafaels-useful-cactus.stripped_cactus": "Soyulmuş Kaktus",
   "block.rafaels-useful-cactus.dried_cactus": "Qurudulmuş Kaktus",
@@ -19,6 +37,9 @@
   "block.rafaels-useful-cactus.cactus_trapdoor": "Kaktus Lyuk",
   "block.rafaels-useful-cactus.cactus_pressure_plate": "Kaktus Təzyiq Lövhəsi",
   "block.rafaels-useful-cactus.cactus_button": "Kaktus Düymə",
+
+  "effect.rafaels-useful-cactus.desert_thorn": "Səhra Tikanı",
+  "effect.rafaels-useful-cactus.desert_thorn.description": "Kaktus tikanlarından davamlı zərər verir",
 
   "itemgroup.useful_cactus.useful_cactus_items": "Faydalı Kaktus Əşyaları",
   "itemgroup.useful_cactus.useful_cactus_blocks": "Faydalı Kaktus Blokları"
