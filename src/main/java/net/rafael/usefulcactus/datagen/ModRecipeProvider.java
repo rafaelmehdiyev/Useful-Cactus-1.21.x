@@ -70,6 +70,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                                 createShaped(RecipeCategory.REDSTONE, ModBlocks.CACTUS_DOOR, 3)
                                                 .pattern("##")
                                                 .pattern("##")
+                                                .pattern("##")
                                                 .input('#', ModBlocks.CACTUS_PLANKS)
                                                 .criterion(hasItem(ModBlocks.CACTUS_PLANKS),
                                                                 conditionsFromItem(ModBlocks.CACTUS_PLANKS))
