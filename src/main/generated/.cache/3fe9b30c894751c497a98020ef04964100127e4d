@@ -1,4 +1,4 @@
-// 1.21.2	2024-12-08T03:05:34.5836359	Rafael's Useful Cactus/Model Definitions
+// 1.21.2	2024-12-08T03:32:59.3665092	Rafael's Useful Cactus/Model Definitions
 24d3625bb648776f42d6c51f19a5cbab1d94e495 assets\rafaels-useful-cactus\models\item\cactus_helmet_gold_trim.json
 458aafe7a8a3e14f0c50a96e8fc91ccb71f20553 assets\rafaels-useful-cactus\models\block\cactus_door_top_left.json
 98c2e8884c0e19fb5bbea06cd9d620e9eaf8f92c assets\rafaels-useful-cactus\models\block\cactus_door_top_right_open.json
@@ -9,8 +9,8 @@ b98ca7a56cef2ab19a4ab37c5af4fb0c51c91d3b assets\rafaels-useful-cactus\models\ite
 3373a2509745bb8e1cd8209e72061f0bff4ce14c assets\rafaels-useful-cactus\blockstates\cactus_door.json
 a75d316c91d17093406f38b6516229afe08f3228 assets\rafaels-useful-cactus\models\block\cactus_button_inventory.json
 c98cbdf4e2aacafe3de775dd63c4b2b332509041 assets\rafaels-useful-cactus\models\block\cactus_fence_inventory.json
-c04b860718f16f40e4959c0fa82ee42e994f2d80 assets\rafaels-useful-cactus\blockstates\stripped_cactus.json
 5ba1cae16553b7123737d18617e282d3b7356520 assets\rafaels-useful-cactus\blockstates\cactus_fence.json
+c04b860718f16f40e4959c0fa82ee42e994f2d80 assets\rafaels-useful-cactus\blockstates\stripped_cactus.json
 99cbbfb80f4e29a90e57f240bca9ea6a0027c1ae assets\rafaels-useful-cactus\models\item\cactus_axe.json
 90fd52d3c30df69f3c2dc70403002e22d123a9c7 assets\rafaels-useful-cactus\models\block\cactus_fence_post.json
 04fb4109ce387758864ec5e2ae88df1aa4b29b4a assets\rafaels-useful-cactus\models\item\cactus_chestplate_copper_trim.json
