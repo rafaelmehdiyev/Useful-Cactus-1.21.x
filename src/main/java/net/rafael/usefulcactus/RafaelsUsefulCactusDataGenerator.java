@@ -2,7 +2,11 @@ package net.rafael.usefulcactus;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
-import net.rafael.usefulcactus.datagen.*;
+import net.rafael.usefulcactus.datagen.ModBlockTagProvider;
+import net.rafael.usefulcactus.datagen.ModItemTagProvider;
+import net.rafael.usefulcactus.datagen.ModLootTableProvider;
+import net.rafael.usefulcactus.datagen.ModModelProvider;
+import net.rafael.usefulcactus.datagen.ModRecipeProvider;
 
 public class RafaelsUsefulCactusDataGenerator implements DataGeneratorEntrypoint {
 	@Override

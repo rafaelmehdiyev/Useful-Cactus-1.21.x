@@ -1,8 +1,12 @@
 package net.rafael.usefulcactus.item.custom;
 
+import java.util.List;
+
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.block.BlockState;
+import net.minecraft.entity.LivingEntity;
+import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.PickaxeItem;
@@ -13,15 +17,11 @@ import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.rafael.usefulcactus.client.CactusItemTooltips;
-import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.player.PlayerEntity;
-
-import java.util.List;
 
 
 public class CactusPickaxeItem extends PickaxeItem {
-    public CactusPickaxeItem(ToolMaterial material, Item.Settings settings) {
-        super(material, settings);
+    public CactusPickaxeItem(ToolMaterial material,float attackDamage, float attackSpeed, Item.Settings settings) {
+        super(material, attackDamage, attackSpeed, settings);
     }
 
 @Override

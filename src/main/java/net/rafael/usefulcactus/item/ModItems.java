@@ -2,8 +2,11 @@ package net.rafael.usefulcactus.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryKey;
+import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.rafael.usefulcactus.RafaelsUsefulCactus;
 import net.rafael.usefulcactus.item.custom.CactusHammerItem;
@@ -18,56 +21,60 @@ import net.rafael.usefulcactus.item.custom.ModArmorItem;
 public class ModItems {
 
     // Basic Items
-    public static final Item CACTUS_SKIN = registerItem("cactus_skin", new Item(new Item.Settings()));
+    public static final Item CACTUS_SKIN = registerItem("cactus_skin", new Item(new Item.Settings()
+    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin")))));
 
     // Cactus Tool Items
     // Cactus Sword: 6 attack damage, 1.6 attack speed
     public static final Item CACTUS_SWORD = registerItem("cactus_sword",
-            new CactusSwordItem(ModToolMaterial.CACTUS_SKIN,
-                    new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-                            ModToolMaterial.CACTUS_SKIN, 3, -2.4f))));
+            new CactusSwordItem(ModToolMaterial.CACTUS_SKIN,3f, 2f,new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_sword")))));
 
     // Cactus Pickaxe: 4 attack damage, 1.2 attack speed
     public static final Item CACTUS_PICKAXE = registerItem("cactus_pickaxe", new CactusPickaxeItem(
-            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 1, -2.8f))));
+            ModToolMaterial.CACTUS_SKIN,1, -2.8f, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_pickaxe")))));
 
     // Cactus Axe: 9 attack damage, 0.9 attack speed
     public static final Item CACTUS_AXE = registerItem("cactus_axe", new AxeItem(
-            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 6, -3.1f))));
+            ModToolMaterial.CACTUS_SKIN,6, -3.1f, new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_axe")))));
 
     // Cactus Shovel: 4.5 attack damage, 1.0 attack speed
     public static final Item CACTUS_SHOVEL = registerItem("cactus_shovel", new ShovelItem(
-            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 1.5f, -3.0f))));
+            ModToolMaterial.CACTUS_SKIN,1.5f, -3.0f, new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_shovel")))));
 
     // Cactus Hoe: 1 attack damage, 1.0 attack speed
     public static final Item CACTUS_HOE = registerItem("cactus_hoe", new HoeItem(
-            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, -2, -3.0f))));
+            ModToolMaterial.CACTUS_SKIN,-2, -3.0f, new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_hoe")))));
 
     // Cactus Hammer: 12 attack damage, 0.9 attack speed
     public static final Item CACTUS_HAMMER = registerItem("cactus_hammer", new CactusHammerItem(
-            ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 9, -3.1f))));
+            ModToolMaterial.CACTUS_SKIN,9, -3.1f, new Item.Settings()
+            .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_hammer")))));
         
     // Cactus Armor Items
     public static final Item CACTUS_HELMET = registerItem("cactus_helmet",
-            new ModArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Settings().maxDamage(ArmorItem.Type.HELMET.getMaxDamage(15))));
+            new ModArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, EquipmentType.HELMET,
+                    new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_helmet")))));
 
     public static final Item CACTUS_CHESTPLATE = registerItem("cactus_chestplate",
-            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Settings().maxDamage(ArmorItem.Type.CHESTPLATE.getMaxDamage(15))));
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, EquipmentType.CHESTPLATE,
+                    new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_chestplate")))));
 
     public static final Item CACTUS_LEGGINGS = registerItem("cactus_leggings",
-            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Settings().maxDamage(ArmorItem.Type.LEGGINGS.getMaxDamage(15))));
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, EquipmentType.LEGGINGS,
+                    new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_leggings")))));
 
     public static final Item CACTUS_BOOTS = registerItem("cactus_boots",
-            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Settings().maxDamage(ArmorItem.Type.BOOTS.getMaxDamage(15))));
+            new ArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, EquipmentType.BOOTS,
+                    new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_boots")))));
 
     /**
      * Registers an item with the game's item registry.

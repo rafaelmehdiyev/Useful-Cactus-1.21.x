@@ -5,7 +5,10 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
-import net.minecraft.item.ArmorItem;
+import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.item.equipment.EquipmentModel;
+import net.minecraft.util.Identifier;
+import net.rafael.usefulcactus.RafaelsUsefulCactus;
 import net.rafael.usefulcactus.block.ModBlocks;
 import net.rafael.usefulcactus.item.ModItems;
 
@@ -16,7 +19,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        BlockStateModelGenerator.BlockTexturePool cactusPlankPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
+        BlockStateModelGenerator.BlockTexturePool cactusPlankPool = blockStateModelGenerator
+                .registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_CACTUS).log(ModBlocks.STRIPPED_CACTUS);
 
         cactusPlankPool.stairs(ModBlocks.CACTUS_STAIRS);
@@ -38,7 +42,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Items
-        itemModelGenerator.register(ModItems.CACTUS_SKIN,Models.GENERATED);
+        itemModelGenerator.register(ModItems.CACTUS_SKIN, Models.GENERATED);
 
         // Tools
         itemModelGenerator.register(ModItems.CACTUS_SWORD, Models.HANDHELD);
@@ -49,9 +53,21 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CACTUS_HAMMER, Models.HANDHELD);
 
         // Armor
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_HELMET);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_CHESTPLATE);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_LEGGINGS);
-        itemModelGenerator.registerArmor((ArmorItem) ModItems.CACTUS_BOOTS);
+        itemModelGenerator.registerArmor(ModItems.CACTUS_HELMET,
+                Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin"), EquipmentModel.builder()
+                        .addHumanoidLayers(Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin")).build(),
+                EquipmentSlot.HEAD);
+        itemModelGenerator.registerArmor(ModItems.CACTUS_CHESTPLATE,
+                Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin"), EquipmentModel.builder()
+                        .addHumanoidLayers(Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin")).build(),
+                EquipmentSlot.CHEST);
+        itemModelGenerator.registerArmor(ModItems.CACTUS_LEGGINGS,
+                Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin"), EquipmentModel.builder()
+                        .addHumanoidLayers(Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin")).build(),
+                EquipmentSlot.LEGS);
+        itemModelGenerator.registerArmor(ModItems.CACTUS_BOOTS,
+                Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin"), EquipmentModel.builder()
+                        .addHumanoidLayers(Identifier.of(RafaelsUsefulCactus.MOD_ID, "cactus_skin")).build(),
+                EquipmentSlot.FEET);
     }
 }

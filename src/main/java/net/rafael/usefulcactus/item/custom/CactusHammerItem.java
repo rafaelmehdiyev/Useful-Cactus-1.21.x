@@ -3,8 +3,9 @@ package net.rafael.usefulcactus.item.custom;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.minecraft.item.MiningToolItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.tag.BlockTags;
@@ -14,11 +15,10 @@ import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
-import net.rafael.usefulcactus.item.ModToolMaterial;
 
 public class CactusHammerItem extends MiningToolItem {
-    public CactusHammerItem(ToolMaterial toolMaterial, Settings settings) {
-        super(ModToolMaterial.CACTUS_SKIN, BlockTags.PICKAXE_MINEABLE , settings);
+    public CactusHammerItem(ToolMaterial material, float attackDamage, float attackSpeed, Item.Settings settings) {
+        super(material, BlockTags.PICKAXE_MINEABLE, attackDamage, attackSpeed, settings);
     }
 
     @Override

@@ -1,5 +1,7 @@
 package net.rafael.usefulcactus.item.custom;
 
+import java.util.List;
+
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.item.Item;
@@ -10,11 +12,9 @@ import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.text.Text;
 import net.rafael.usefulcactus.client.CactusItemTooltips;
 
-import java.util.List;
-
 public class CactusSwordItem extends SwordItem {
-    public CactusSwordItem(ToolMaterial toolMaterial, Item.Settings settings) {
-        super(toolMaterial, settings);
+    public CactusSwordItem(ToolMaterial toolMaterial,float attackDamage, float attackSpeed, Item.Settings settings) {
+        super(toolMaterial,attackDamage,attackSpeed, settings);
     }
 
     @Override

@@ -1,0 +1,14 @@
+{
+    "layers":{
+        "humanoid":[
+            {
+                "texture":"rafaels-useful-cactus:cactus"
+            }
+        ],
+        "humanoid_leggings":[
+            {
+                "texture":"rafaels-useful-cactus:cactus"
+            }
+        ]
+    }
+}

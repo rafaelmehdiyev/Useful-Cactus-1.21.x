@@ -2,9 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    {
-      "item": "rafaels-useful-cactus:cactus_skin"
-    }
+    "rafaels-useful-cactus:cactus_skin"
   ],
   "result": {
     "count": 1,

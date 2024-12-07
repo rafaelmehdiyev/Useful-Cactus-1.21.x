@@ -31,19 +31,4 @@ public class CactusPickaxeMixin {
         }
     }
 
-    @Inject(method = "getEnchantability", at = @At("HEAD"), cancellable = true)
-    private void onGetEnchantability(CallbackInfoReturnable<Integer> cir) {
-        ItemStack stack = ((PlayerEntity)(Object)this).getMainHandStack();
-        if (!(stack.getItem() instanceof PickaxeItem) || stack.getItem() != ModItems.CACTUS_PICKAXE) {
-            return;
-        }
-
-        PlayerEntity player = ((PlayerEntity)(Object)this);
-        World world = player.getWorld();
-        
-        if (world.getBiome(player.getBlockPos()).isIn(BiomeTags.VILLAGE_DESERT_HAS_STRUCTURE)) {
-            int originalEnchantability = cir.getReturnValue();
-            cir.setReturnValue(originalEnchantability + 1); // +1 enchantability in deserts
-        }
-    }
 }

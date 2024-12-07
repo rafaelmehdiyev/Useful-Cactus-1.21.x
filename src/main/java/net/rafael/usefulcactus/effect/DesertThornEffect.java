@@ -18,10 +18,10 @@ public class DesertThornEffect extends StatusEffect {
     }
 
     @Override
-    public boolean applyUpdateEffect(LivingEntity entity, int amplifier) {
+    public boolean applyUpdateEffect(ServerWorld world, LivingEntity entity, int amplifier) {
         if (!entity.getWorld().isClient()) {
             // Apply damage
-            entity.damage(entity.getDamageSources().magic(), 2f);
+            entity.damage(world,entity.getDamageSources().magic(), 2f);
             
             // Spawn cactus break particles
             ServerWorld serverWorld = (ServerWorld) entity.getWorld();
@@ -38,6 +38,6 @@ public class DesertThornEffect extends StatusEffect {
             );
             return true;
         }
-        return super.applyUpdateEffect(entity, amplifier);
+        return super.applyUpdateEffect(world,entity, amplifier);
     }
 }

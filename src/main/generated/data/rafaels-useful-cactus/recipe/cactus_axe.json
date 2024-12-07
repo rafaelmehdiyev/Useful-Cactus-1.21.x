@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "C": {
-      "item": "rafaels-useful-cactus:cactus_skin"
-    },
-    "S": {
-      "item": "minecraft:stick"
-    }
+    "C": "rafaels-useful-cactus:cactus_skin",
+    "S": "minecraft:stick"
   },
   "pattern": [
     "CC ",

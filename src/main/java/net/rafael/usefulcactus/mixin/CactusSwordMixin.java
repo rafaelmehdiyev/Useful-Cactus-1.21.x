@@ -6,6 +6,7 @@ import net.minecraft.entity.mob.HuskEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.SwordItem;
 import net.minecraft.registry.tag.BiomeTags;
+import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.rafael.usefulcactus.effect.ModEffects;
@@ -48,7 +49,7 @@ public class CactusSwordMixin {
         }
         
         if (bonus > 0) {
-            target.damage(target.getDamageSources().magic(), bonus);
+            target.damage((ServerWorld)world,target.getDamageSources().magic(), bonus);
         }
     }
 
@@ -59,14 +60,15 @@ public class CactusSwordMixin {
     }
 
     private void applyExtraDamageToHusks(LivingEntity target) {
+        World world = target.getWorld();
         if (target instanceof HuskEntity) {
-            target.damage(target.getDamageSources().magic(), 3.0f);
+            target.damage((ServerWorld)world,target.getDamageSources().magic(), 3.0f);
         }
     }
 
     private void applyBonusDamageOnSand(World world, BlockPos pos, LivingEntity target) {
         if (world.getBlockState(pos.down()).isIn(net.minecraft.registry.tag.BlockTags.SAND)) {
-            target.damage(target.getDamageSources().magic(), 1.5f);
+            target.damage((ServerWorld) world,target.getDamageSources().magic(), 1.5f);
         }
     }
 

@@ -1,13 +1,14 @@
 package net.rafael.usefulcactus.datagen;
 
+import java.util.concurrent.CompletableFuture;
+
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 import net.rafael.usefulcactus.block.ModBlocks;
 import net.rafael.usefulcactus.item.ModItems;
-
-import java.util.concurrent.CompletableFuture;
+import net.rafael.usefulcactus.util.ModTags;
 
 public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
@@ -45,5 +46,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.CACTUS_CHESTPLATE)
                 .add(ModItems.CACTUS_LEGGINGS)
                 .add(ModItems.CACTUS_BOOTS);
+
+        getOrCreateTagBuilder(ModTags.Items.CACTUS_REPAIR)
+                .add(ModItems.CACTUS_SKIN);
     }
 }

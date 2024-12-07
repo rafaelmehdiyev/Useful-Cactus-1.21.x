@@ -2,12 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "rafaels-useful-cactus:cactus_planks"
-    },
-    "|": {
-      "item": "minecraft:stick"
-    }
+    "#": "rafaels-useful-cactus:cactus_planks",
+    "|": "minecraft:stick"
   },
   "pattern": [
     "#|#",

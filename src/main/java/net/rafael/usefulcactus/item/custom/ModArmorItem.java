@@ -1,27 +1,30 @@
 package net.rafael.usefulcactus.item.custom;
 
+import java.util.List;
+import java.util.Map;
+
 import com.google.common.collect.ImmutableMap;
+
+import net.minecraft.component.DataComponentTypes;
+import net.minecraft.component.type.EquippableComponent;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ArmorItem;
-import net.minecraft.item.ArmorMaterial;
 import net.minecraft.item.ItemStack;
-import net.minecraft.registry.entry.RegistryEntry;
+import net.minecraft.item.equipment.ArmorMaterial;
+import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.world.World;
 import net.rafael.usefulcactus.item.ModArmorMaterials;
-
-import java.util.List;
-import java.util.Map;
 
 /**
  * Custom armor item class that provides special effects when a full set is worn.
  */
 public class ModArmorItem extends ArmorItem {
     // Map to store armor material and corresponding status effects
-    private static final Map<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP =
-            new ImmutableMap.Builder<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>>()
+    private static final Map<ArmorMaterial, List<StatusEffectInstance>> MATERIAL_TO_EFFECT_MAP =
+            new ImmutableMap.Builder<ArmorMaterial, List<StatusEffectInstance>>()
                     .put(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL,
                             List.of(
                                     // Thorns-like effect (represents cactus spikes)
@@ -31,7 +34,7 @@ public class ModArmorItem extends ArmorItem {
                                 ))
                     .build();
 
-    public ModArmorItem(RegistryEntry<ArmorMaterial> material, Type type, Settings settings) {
+    public ModArmorItem(ArmorMaterial material, EquipmentType type, Settings settings) {
         super(material, type, settings);
     }
 
@@ -49,8 +52,8 @@ public class ModArmorItem extends ArmorItem {
      * Evaluates and applies armor effects if the player has the correct armor set.
      */
     private void evaluateArmorEffects(PlayerEntity player) {
-        for (Map.Entry<RegistryEntry<ArmorMaterial>, List<StatusEffectInstance>> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
-            RegistryEntry<ArmorMaterial> material = entry.getKey();
+        for (Map.Entry<ArmorMaterial, List<StatusEffectInstance>> entry : MATERIAL_TO_EFFECT_MAP.entrySet()) {
+            ArmorMaterial material = entry.getKey();
             List<StatusEffectInstance> effects = entry.getValue();
 
             if (hasCorrectArmorOn(material, player)) {
@@ -81,9 +84,14 @@ public class ModArmorItem extends ArmorItem {
     /**
      * Checks if the player is wearing the correct set of armor for the given material.
      */
-    private boolean hasCorrectArmorOn(RegistryEntry<ArmorMaterial> material, PlayerEntity player) {
+    private boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
+
+
+
         return player.getInventory().armor.stream()
                 .allMatch(stack -> stack.getItem() instanceof ArmorItem &&
-                        ((ArmorItem) stack.getItem()).getMaterial() == material);
+                ((EquippableComponent) stack.getComponents().get(DataComponentTypes.EQUIPPABLE)).model().get() == material.modelId());
+
+
     }
 }
