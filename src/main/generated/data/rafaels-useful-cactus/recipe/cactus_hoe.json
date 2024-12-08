@@ -2,13 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "key": {
-    "#": "minecraft:stick",
-    "X": "rafaels-useful-cactus:cactus_skin"
+    "C": "rafaels-useful-cactus:cactus_skin",
+    "P": "rafaels-useful-cactus:cactus_planks",
+    "S": "minecraft:stick"
   },
   "pattern": [
-    "XX ",
-    " # ",
-    " # "
+    "PPC",
+    "CS ",
+    " S "
   ],
   "result": {
     "count": 1,

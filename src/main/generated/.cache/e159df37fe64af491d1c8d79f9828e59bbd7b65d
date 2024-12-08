@@ -1,8 +1,8 @@
-// 1.21.3	2024-12-08T03:30:13.0466076	Rafael's Useful Cactus/Block Loot Tables
+// 1.21.3	2024-12-08T16:08:59.8450089	Rafael's Useful Cactus/Block Loot Tables
 f53bc992bcde86b40c3e75de659beaeb44ee5070 data\rafaels-useful-cactus\loot_table\blocks\cactus_button.json
 460986b841e23a1a2a050d4dbd1a1882b2c1c4bb data\rafaels-useful-cactus\loot_table\blocks\cactus_fence_gate.json
-b59f82035469dd1bb02777825644f6b80badd940 data\rafaels-useful-cactus\loot_table\blocks\stripped_cactus.json
 98a374ded47ee4a0584c33b757c37844cd5a65d8 data\rafaels-useful-cactus\loot_table\blocks\cactus_fence.json
+b59f82035469dd1bb02777825644f6b80badd940 data\rafaels-useful-cactus\loot_table\blocks\stripped_cactus.json
 8b56ebbba29363bcb9781a74722a41d2e9c9d6f5 data\rafaels-useful-cactus\loot_table\blocks\cactus_stairs.json
 6fda26d3cfc6d49e577325e6f517b96488bdcaea data\rafaels-useful-cactus\loot_table\blocks\dried_cactus.json
 d4d4ebd07a388ab3c0d30e5339cfa922f032382b data\rafaels-useful-cactus\loot_table\blocks\cactus_trapdoor.json
