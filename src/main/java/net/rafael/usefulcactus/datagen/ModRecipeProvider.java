@@ -89,17 +89,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Cactus Tool Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_SWORD)
-                .pattern(" C ")
-                .pattern(" C ")
+                .pattern(" P ")
+                .pattern("CPC")
                 .pattern(" S ")
                 .input('C', ModItems.CACTUS_SKIN)
+                .input('P', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_PICKAXE)
-                .pattern("CCC")
-                .pattern(" S ")
+                .pattern("PPP")
+                .pattern("CSC")
                 .pattern(" S ")
                 .input('C', ModItems.CACTUS_SKIN)
                 .input('S', Items.STICK)
