@@ -1,5 +1,7 @@
 package net.rafael.usefulcactus.datagen;
 
+import java.util.concurrent.CompletableFuture;
+
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
@@ -10,8 +12,6 @@ import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.rafael.usefulcactus.block.ModBlocks;
 import net.rafael.usefulcactus.item.ModItems;
-
-import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
@@ -89,55 +89,61 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Cactus Tool Recipes
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.CACTUS_SWORD)
-                .pattern(" C ")
-                .pattern(" C ")
+                .pattern(" P ")
+                .pattern("CPC")
                 .pattern(" S ")
                 .input('C', ModItems.CACTUS_SKIN)
+                .input('P', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_PICKAXE)
                 .pattern("CCC")
+                .pattern("PSP")
                 .pattern(" S ")
-                .pattern(" S ")
-                .input('C', ModItems.CACTUS_SKIN)
+                .input('P', ModItems.CACTUS_SKIN)
+                .input('C', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_AXE)
-                .pattern("CC ")
+                .pattern("CCP")
                 .pattern("CS ")
-                .pattern(" S ")
-                .input('C', ModItems.CACTUS_SKIN)
+                .pattern("PS ")
+                .input('P', ModItems.CACTUS_SKIN)
+                .input('C', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_SHOVEL)
-                .pattern(" C ")
+                .pattern("PCP")
                 .pattern(" S ")
                 .pattern(" S ")
-                .input('C', ModItems.CACTUS_SKIN)
+                .input('P', ModItems.CACTUS_SKIN)
+                .input('C', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_HOE)
-                .pattern("XX ")
+                .pattern("XXP")
+                .pattern("P# ")
                 .pattern(" # ")
-                .pattern(" # ")
-                .input('X', ModItems.CACTUS_SKIN)
+                .input('P', ModItems.CACTUS_SKIN)
+                .input('X', ModBlocks.CACTUS_PLANKS)
                 .input('#', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CACTUS_HAMMER)
-                .pattern("CCC")
-                .pattern("CCC")
+                .pattern("PCP")
+                .pattern("PCP")
                 .pattern(" S ")
                 .input('C', ModItems.CACTUS_SKIN)
+                .input('P', ModBlocks.CACTUS_PLANKS)
                 .input('S', Items.STICK)
                 .criterion(hasItem(ModItems.CACTUS_SKIN), conditionsFromItem(ModItems.CACTUS_SKIN))
                 .offerTo(recipeExporter);

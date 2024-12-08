@@ -5,13 +5,16 @@
     "#": {
       "item": "minecraft:stick"
     },
-    "X": {
+    "P": {
       "item": "rafaels-useful-cactus:cactus_skin"
+    },
+    "X": {
+      "item": "rafaels-useful-cactus:cactus_planks"
     }
   },
   "pattern": [
-    "XX ",
-    " # ",
+    "XXP",
+    "P# ",
     " # "
   ],
   "result": {

@@ -13,7 +13,7 @@
 		"sources": "https://github.com/rafaelmehdiyev/Useful-Cactus-Fabric-1.21.x"
 	},
 	"license": "MIT",
-	"icon": "assets/rafaels-useful-cactus/icon.gif",
+	"icon": "assets/rafaels-useful-cactus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"fabric-datagen": [

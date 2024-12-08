@@ -3,6 +3,9 @@
   "category": "equipment",
   "key": {
     "C": {
+      "item": "rafaels-useful-cactus:cactus_planks"
+    },
+    "P": {
       "item": "rafaels-useful-cactus:cactus_skin"
     },
     "S": {
@@ -11,7 +14,7 @@
   },
   "pattern": [
     "CCC",
-    " S ",
+    "PSP",
     " S "
   ],
   "result": {

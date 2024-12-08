@@ -1,4 +1,4 @@
-// 1.21	2024-11-25T14:19:00.8136316	Rafael's Useful Cactus/Recipes
+// 1.21	2024-12-08T14:38:14.6459423	Rafael's Useful Cactus/Recipes
 c95038d2f92cee85fd31cfb2372ce629e3144c09 data\rafaels-useful-cactus\recipe\cactus_fence_gate.json
 0082270da7d4726fd0cd94419ae29e89d56e5c92 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_pickaxe.json
 e79a6100184d82340fe870bb7501ad0b351b82c9 data\rafaels-useful-cactus\recipe\cactus_fence.json
@@ -6,7 +6,7 @@ ef38637ef2d3c1070b766b8f0d5f5f04dae24472 data\rafaels-useful-cactus\advancement\
 c84458a9c49482c8cf837540e1b848db98e2dd5f data\rafaels-useful-cactus\advancement\recipes\combat\cactus_sword.json
 bd190e032b89874f445e5b534631d0157b65feee data\rafaels-useful-cactus\recipe\cactus_planks.json
 47468a4bc0d4accd3b3745a64984edbe6ea55829 data\rafaels-useful-cactus\recipe\cactus_button.json
-dcbfb6f5db8049a8fde3545b183db89eec612468 data\rafaels-useful-cactus\recipe\cactus_sword.json
+d0c6e496a4ec3b1e81a79f6ea5abc9f61757f39b data\rafaels-useful-cactus\recipe\cactus_sword.json
 0da0af1bae692586bc969f238a102b607b887dea data\rafaels-useful-cactus\recipe\cactus_leggings.json
 9770862056fe87182e2a0bc140c9108fef70627d data\rafaels-useful-cactus\advancement\recipes\tools\cactus_axe.json
 2ab699d7ef47b221ae81fd907aef4fee0dc9a58b data\rafaels-useful-cactus\advancement\recipes\building_blocks\cactus_slab.json
@@ -17,10 +17,10 @@ a6da78bbda2a2855567e25770ac766ebe370ba82 data\rafaels-useful-cactus\advancement\
 bb277c954a606b26d891c2f6d5723e019fd00afd data\rafaels-useful-cactus\advancement\recipes\decorations\cactus_fence.json
 6551abf41e385490ad98d20e0353c3858673a84e data\rafaels-useful-cactus\recipe\green_dye.json
 c3b368a0e1a8c73c917a4628db8c2ce40d3a2a6b data\rafaels-useful-cactus\recipe\cactus_boots.json
-e833b06a5d00426984b4b71a86471d5e82931272 data\rafaels-useful-cactus\recipe\cactus_axe.json
-33e4cdd25e1b5ce7af8c3accf0a25fe0e1d02599 data\rafaels-useful-cactus\recipe\cactus_hoe.json
+a59af05154ef2be3b70f714634f9cabb6b774a67 data\rafaels-useful-cactus\recipe\cactus_axe.json
+91d03787c837a01cdacf6c8177690e5aba75addf data\rafaels-useful-cactus\recipe\cactus_hoe.json
 ba65ffd9b39b3d16e811bdc705ad435115c3e00f data\rafaels-useful-cactus\advancement\recipes\building_blocks\cactus_planks.json
-0310214e3f1d8f9bee8122d4e7a2343719a68051 data\rafaels-useful-cactus\recipe\cactus_pickaxe.json
+3fde8ecfe7990af5ec1221e7a4eb1c5691be97f4 data\rafaels-useful-cactus\recipe\cactus_pickaxe.json
 d736d14e8e74f140a93ae3448de6513ef862f0c2 data\rafaels-useful-cactus\advancement\recipes\redstone\cactus_pressure_plate.json
 f1ca7bc69ff1b0437daf752bb7574d3376c0dd1a data\rafaels-useful-cactus\recipe\cactus_trapdoor.json
 6a3504b3f085e9fa1b98524d8610112910638b42 data\rafaels-useful-cactus\recipe\cactus_door.json
@@ -28,9 +28,9 @@ f1ca7bc69ff1b0437daf752bb7574d3376c0dd1a data\rafaels-useful-cactus\recipe\cactu
 1d46f4e0a65d18cc0e52f32ae22142bce3a411b2 data\rafaels-useful-cactus\advancement\recipes\combat\cactus_chestplate.json
 289470c4b8290dc4ba31e686f5599113312b3e66 data\rafaels-useful-cactus\recipe\cactus_chestplate.json
 511dbbf929f8ad9f22e41340d3828fbf2639d46b data\rafaels-useful-cactus\advancement\recipes\tools\cactus_shovel.json
-be472f97b255c8f3623cedc1d66ce4bc51a29f2d data\rafaels-useful-cactus\recipe\cactus_shovel.json
+0b3fc4349c7fad9691a83fd3bdef61d8867b9bd1 data\rafaels-useful-cactus\recipe\cactus_shovel.json
 217e3c02140455ff77e29c4931b2de93d66ef667 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_hammer.json
-a4e2cb23f187264bb373c6e0a9358b54fac0c67c data\rafaels-useful-cactus\recipe\cactus_hammer.json
+fd02b03e883b4a39eafa8f916dfa767f2dead73d data\rafaels-useful-cactus\recipe\cactus_hammer.json
 4ec78e60333cf7397cb338c354928d8d13f755c1 data\rafaels-useful-cactus\advancement\recipes\redstone\cactus_trapdoor.json
 c9e4da4d9f9297ee62db5f5e36494f54132eafb1 data\rafaels-useful-cactus\advancement\recipes\tools\cactus_hoe.json
 521af39000705195769eb7d9c98440678ac1bc2f data\rafaels-useful-cactus\recipe\cactus_pressure_plate.json
