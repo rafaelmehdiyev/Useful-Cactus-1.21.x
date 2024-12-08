@@ -85,13 +85,8 @@ public class ModArmorItem extends ArmorItem {
      * Checks if the player is wearing the correct set of armor for the given material.
      */
     private boolean hasCorrectArmorOn(ArmorMaterial material, PlayerEntity player) {
-
-
-
         return player.getInventory().armor.stream()
                 .allMatch(stack -> stack.getItem() instanceof ArmorItem &&
-                ((EquippableComponent) stack.getComponents().get(DataComponentTypes.EQUIPPABLE)).model().get() == material.modelId());
-
-
+                ((EquippableComponent) stack.getComponents().get(DataComponentTypes.EQUIPPABLE)).equals(material));
     }
 }

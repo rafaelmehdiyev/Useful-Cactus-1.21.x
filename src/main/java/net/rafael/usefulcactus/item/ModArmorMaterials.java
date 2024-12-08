@@ -4,11 +4,10 @@ package net.rafael.usefulcactus.item;
 import java.util.EnumMap;
 
 import net.minecraft.item.equipment.ArmorMaterial;
+import net.minecraft.item.equipment.EquipmentAssetKeys;
 import net.minecraft.item.equipment.EquipmentType;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
-import net.rafael.usefulcactus.RafaelsUsefulCactus;
 import net.rafael.usefulcactus.util.ModTags;
 
 public class ModArmorMaterials {
@@ -20,6 +19,6 @@ public class ModArmorMaterials {
                 map.put(EquipmentType.CHESTPLATE,6);
                 map.put(EquipmentType.LEGGINGS,2);
                 map.put(EquipmentType.BODY,4);
-            }),20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,0,0,ModTags.Items.CACTUS_REPAIR,
-                    Identifier.of(RafaelsUsefulCactus.MOD_ID,"cactus"));
+            }),20, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND,0,0,ModTags.Items.CACTUS_REPAIR,EquipmentAssetKeys.register("cactus_skin"));
+
 }
