@@ -3,13 +3,14 @@
 	"id": "rafaels-useful-cactus",
 	"version": "${version}",
 	"name": "Rafael's Useful Cactus",
-	"description": "A mod that makes cacti more useful by allowing you to harvest cactus skin and craft various tools from it!",
+	"description": "A mod that makes cacti more useful by allowing you to harvest cactus skin, craft various tools and armor from it and use it as wood!",
 	"authors": [
-		"RaFaEL0 (Rafael Mehdiyev)"
+		"RaFaEL0 (Rafael Mehdiyev)",
+		"Meronia"
 	],
 	"contact": {
 		"homepage": "",
-		"sources": ""
+		"sources": "https://github.com/rafaelmehdiyev/Useful-Cactus-Fabric-1.21.x"
 	},
 	"license": "MIT",
 	"icon": "assets/rafaels-useful-cactus/icon.png",
