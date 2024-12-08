@@ -5,13 +5,16 @@
     "C": {
       "item": "rafaels-useful-cactus:cactus_skin"
     },
+    "P": {
+      "item": "rafaels-useful-cactus:cactus_planks"
+    },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "CCC",
-    " S ",
+    "PPP",
+    "CSC",
     " S "
   ],
   "result": {

@@ -5,14 +5,17 @@
     "C": {
       "item": "rafaels-useful-cactus:cactus_skin"
     },
+    "P": {
+      "item": "rafaels-useful-cactus:cactus_planks"
+    },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    "CC ",
-    "CS ",
-    " S "
+    "PPC",
+    "PS ",
+    "CS "
   ],
   "result": {
     "count": 1,
