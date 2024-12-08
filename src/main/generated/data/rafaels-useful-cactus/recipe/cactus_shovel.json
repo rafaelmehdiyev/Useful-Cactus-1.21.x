@@ -3,10 +3,11 @@
   "category": "equipment",
   "key": {
     "C": "rafaels-useful-cactus:cactus_skin",
+    "P": "rafaels-useful-cactus:cactus_planks",
     "S": "minecraft:stick"
   },
   "pattern": [
-    " C ",
+    "CPC",
     " S ",
     " S "
   ],
