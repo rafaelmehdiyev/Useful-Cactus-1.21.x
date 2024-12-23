@@ -1,12 +1,12 @@
-// 1.21.3	2024-12-08T03:30:13.0466076	Rafael's Useful Cactus/Block Loot Tables
-f53bc992bcde86b40c3e75de659beaeb44ee5070 data\rafaels-useful-cactus\loot_table\blocks\cactus_button.json
-460986b841e23a1a2a050d4dbd1a1882b2c1c4bb data\rafaels-useful-cactus\loot_table\blocks\cactus_fence_gate.json
-b59f82035469dd1bb02777825644f6b80badd940 data\rafaels-useful-cactus\loot_table\blocks\stripped_cactus.json
-98a374ded47ee4a0584c33b757c37844cd5a65d8 data\rafaels-useful-cactus\loot_table\blocks\cactus_fence.json
-8b56ebbba29363bcb9781a74722a41d2e9c9d6f5 data\rafaels-useful-cactus\loot_table\blocks\cactus_stairs.json
-6fda26d3cfc6d49e577325e6f517b96488bdcaea data\rafaels-useful-cactus\loot_table\blocks\dried_cactus.json
-d4d4ebd07a388ab3c0d30e5339cfa922f032382b data\rafaels-useful-cactus\loot_table\blocks\cactus_trapdoor.json
-571953427042fdf3b362d79f168639a916f9ac81 data\rafaels-useful-cactus\loot_table\blocks\cactus_door.json
-c9dac28541a5d262f8660e42a9a84369f7a2d1b1 data\rafaels-useful-cactus\loot_table\blocks\cactus_pressure_plate.json
-f562301f747e588b214ee2b8935e18b6d151e386 data\rafaels-useful-cactus\loot_table\blocks\cactus_slab.json
-a1d6c8e8f295de2e75f4657753deb21cada4d64e data\rafaels-useful-cactus\loot_table\blocks\cactus_planks.json
+// 1.21.4	-999999999-01-01T00:00:00	Rafael's Useful Cactus/Block Loot Tables
+f53bc992bcde86b40c3e75de659beaeb44ee5070 data/rafaels-useful-cactus/loot_table/blocks/cactus_button.json
+571953427042fdf3b362d79f168639a916f9ac81 data/rafaels-useful-cactus/loot_table/blocks/cactus_door.json
+98a374ded47ee4a0584c33b757c37844cd5a65d8 data/rafaels-useful-cactus/loot_table/blocks/cactus_fence.json
+460986b841e23a1a2a050d4dbd1a1882b2c1c4bb data/rafaels-useful-cactus/loot_table/blocks/cactus_fence_gate.json
+a1d6c8e8f295de2e75f4657753deb21cada4d64e data/rafaels-useful-cactus/loot_table/blocks/cactus_planks.json
+c9dac28541a5d262f8660e42a9a84369f7a2d1b1 data/rafaels-useful-cactus/loot_table/blocks/cactus_pressure_plate.json
+f562301f747e588b214ee2b8935e18b6d151e386 data/rafaels-useful-cactus/loot_table/blocks/cactus_slab.json
+8b56ebbba29363bcb9781a74722a41d2e9c9d6f5 data/rafaels-useful-cactus/loot_table/blocks/cactus_stairs.json
+d4d4ebd07a388ab3c0d30e5339cfa922f032382b data/rafaels-useful-cactus/loot_table/blocks/cactus_trapdoor.json
+6fda26d3cfc6d49e577325e6f517b96488bdcaea data/rafaels-useful-cactus/loot_table/blocks/dried_cactus.json
+b59f82035469dd1bb02777825644f6b80badd940 data/rafaels-useful-cactus/loot_table/blocks/stripped_cactus.json
