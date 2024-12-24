@@ -4,8 +4,7 @@
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"CactusBlockMixin",
-		"CactusSwordMixin",
-		"CactusPickaxeMixin"
+		"CactusSwordMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
