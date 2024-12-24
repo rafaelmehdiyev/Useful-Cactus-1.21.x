@@ -21,37 +21,31 @@ public class ModItems {
     public static final Item CACTUS_SKIN = registerItem("cactus_skin", new Item(new Item.Settings()));
 
     // Cactus Tool Items
-    // Cactus Sword: 6 attack damage, 1.6 attack speed
     public static final Item CACTUS_SWORD = registerItem("cactus_sword",
             new CactusSwordItem(ModToolMaterial.CACTUS_SKIN,
                     new Item.Settings().attributeModifiers(SwordItem.createAttributeModifiers(
-                            ModToolMaterial.CACTUS_SKIN, 3, -2.4f))));
+                            ModToolMaterial.CACTUS_SKIN, 3, -2.6f))));
 
-    // Cactus Pickaxe: 4 attack damage, 1.2 attack speed
     public static final Item CACTUS_PICKAXE = registerItem("cactus_pickaxe", new CactusPickaxeItem(
             ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 1, -2.8f))));
+                    ModToolMaterial.CACTUS_SKIN, 0.5f, -2.8f))));
 
-    // Cactus Axe: 9 attack damage, 0.9 attack speed
     public static final Item CACTUS_AXE = registerItem("cactus_axe", new AxeItem(
             ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(AxeItem.createAttributeModifiers(
                     ModToolMaterial.CACTUS_SKIN, 6, -3.1f))));
 
-    // Cactus Shovel: 4.5 attack damage, 1.0 attack speed
     public static final Item CACTUS_SHOVEL = registerItem("cactus_shovel", new ShovelItem(
             ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(ShovelItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 1.5f, -3.0f))));
+                    ModToolMaterial.CACTUS_SKIN, 1f, -3.0f))));
 
-    // Cactus Hoe: 1 attack damage, 1.0 attack speed
     public static final Item CACTUS_HOE = registerItem("cactus_hoe", new HoeItem(
             ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(HoeItem.createAttributeModifiers(
                     ModToolMaterial.CACTUS_SKIN, -2, -3.0f))));
 
-    // Cactus Hammer: 12 attack damage, 0.9 attack speed
     public static final Item CACTUS_HAMMER = registerItem("cactus_hammer", new CactusHammerItem(
             ModToolMaterial.CACTUS_SKIN, new Item.Settings().attributeModifiers(PickaxeItem.createAttributeModifiers(
-                    ModToolMaterial.CACTUS_SKIN, 9, -3.1f))));
-        
+                    ModToolMaterial.CACTUS_SKIN, 4, -3.4f))));
+
     // Cactus Armor Items
     public static final Item CACTUS_HELMET = registerItem("cactus_helmet",
             new ModArmorItem(ModArmorMaterials.CACTUS_SKIN_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
@@ -85,9 +79,7 @@ public class ModItems {
     public static void registerModItems() {
         RafaelsUsefulCactus.LOGGER.info("Registering Mod Items for " + RafaelsUsefulCactus.MOD_ID);
 
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(CACTUS_SKIN);
-        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.add(CACTUS_SKIN));
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(entries -> {
             entries.add(CACTUS_SWORD);

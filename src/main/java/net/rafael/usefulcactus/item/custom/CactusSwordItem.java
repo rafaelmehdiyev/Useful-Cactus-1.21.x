@@ -21,7 +21,7 @@ public class CactusSwordItem extends SwordItem {
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType type) {
         if (type == TooltipType.ADVANCED) {
-            CactusItemTooltips.addCactusSwordTooltip(stack, null, tooltip);
+            CactusItemTooltips.addCactusSwordTooltip(tooltip);
         }
         super.appendTooltip(stack, context, tooltip, type);
     }
